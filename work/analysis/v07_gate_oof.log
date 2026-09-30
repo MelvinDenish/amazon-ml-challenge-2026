@@ -1,0 +1,4 @@
+OOF xgb_v6    owner_prob=False India 0.97829 US 0.98182 overall 0.98041
+OOF xgb_v6    owner_prob=True  India 0.97849 US 0.98202 overall 0.98060
+OOF blend_v7  owner_prob=False India 0.97854 US 0.98220 overall 0.98073
+OOF blend_v7  owner_prob=True  India 0.97868 US 0.98227 overall 0.98083

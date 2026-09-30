@@ -1,0 +1,8 @@
+[India] score>=95 margin>=0: add 3.4/1k S1, precision 55.8% | F0.5 0.98808 -> 0.98790 (-0.00019)
+[India] score>=90 margin>=10: add 1.6/1k S1, precision 90.6% | F0.5 0.98808 -> 0.98816 (+0.00008)
+[India] score>=85 margin>=10: add 2.0/1k S1, precision 86.8% | F0.5 0.98808 -> 0.98815 (+0.00007)
+[India] score>=80 margin>=5: add 3.0/1k S1, precision 79.5% | F0.5 0.98808 -> 0.98814 (+0.00005)
+[US] score>=95 margin>=0: add 1.8/1k S1, precision 31.8% | F0.5 0.98777 -> 0.98752 (-0.00025)
+[US] score>=90 margin>=10: add 0.8/1k S1, precision 84.1% | F0.5 0.98777 -> 0.98780 (+0.00003)
+[US] score>=85 margin>=10: add 1.4/1k S1, precision 84.9% | F0.5 0.98777 -> 0.98782 (+0.00005)
+[US] score>=80 margin>=5: add 2.2/1k S1, precision 77.8% | F0.5 0.98777 -> 0.98778 (+0.00000)

@@ -1,0 +1,33 @@
+1) SYNTHETIC SHIFT
+  [India near-number twin  ] keep 1.00 of true pairs: true prior 0.0918  EM estimate 0.0912  (naive mean p 0.0913)
+  [India near-number twin  ] keep 0.50 of true pairs: true prior 0.0485  EM estimate 0.0481  (naive mean p 0.0494)
+  [India near-number twin  ] keep 0.25 of true pairs: true prior 0.0248  EM estimate 0.0245  (naive mean p 0.0266)
+  [India other-number twin ] keep 1.00 of true pairs: true prior 0.0919  EM estimate 0.0918  (naive mean p 0.0918)
+  [India other-number twin ] keep 0.50 of true pairs: true prior 0.0482  EM estimate 0.0482  (naive mean p 0.0490)
+  [India other-number twin ] keep 0.25 of true pairs: true prior 0.0248  EM estimate 0.0247  (naive mean p 0.0260)
+  [India empty cand address] keep 1.00 of true pairs: true prior 0.0595  EM estimate 0.0586  (naive mean p 0.0589)
+  [India empty cand address] keep 0.50 of true pairs: true prior 0.0307  EM estimate 0.0303  (naive mean p 0.0394)
+  [India empty cand address] keep 0.25 of true pairs: true prior 0.0155  EM estimate 0.0153  (naive mean p 0.0291)
+  [US near-number twin  ] keep 1.00 of true pairs: true prior 0.1512  EM estimate 0.1513  (naive mean p 0.1513)
+  [US near-number twin  ] keep 0.50 of true pairs: true prior 0.0812  EM estimate 0.0812  (naive mean p 0.0846)
+  [US near-number twin  ] keep 0.25 of true pairs: true prior 0.0432  EM estimate 0.0432  (naive mean p 0.0484)
+  [US other-number twin ] keep 1.00 of true pairs: true prior 0.0417  EM estimate 0.0417  (naive mean p 0.0417)
+  [US other-number twin ] keep 0.50 of true pairs: true prior 0.0213  EM estimate 0.0212  (naive mean p 0.0217)
+  [US other-number twin ] keep 0.25 of true pairs: true prior 0.0108  EM estimate 0.0108  (naive mean p 0.0114)
+  [US empty cand address] keep 1.00 of true pairs: true prior 0.0400  EM estimate 0.0394  (naive mean p 0.0396)
+  [US empty cand address] keep 0.50 of true pairs: true prior 0.0204  EM estimate 0.0201  (naive mean p 0.0264)
+  [US empty cand address] keep 0.25 of true pairs: true prior 0.0103  EM estimate 0.0103  (naive mean p 0.0197)
+
+2) NATURAL SHIFT (source -> target country)
+  [India->US form conflict     ] n=1,871,244 source prior 0.0004  TRUE target 0.0042  EM 0.0078  mean p 0.0041
+  [India->US near-number twin  ] n=  244,956 source prior 0.0918  TRUE target 0.1512  EM 0.1554  mean p 0.1513
+  [India->US other-number twin ] n=2,644,836 source prior 0.0919  TRUE target 0.0417  EM 0.0410  mean p 0.0417
+  [India->US empty cand address] n=2,369,983 source prior 0.0595  TRUE target 0.0400  EM 0.0333  mean p 0.0396
+  [India->US rest              ] n=8,983,749 source prior 0.1635  TRUE target 0.2233  EM 0.2242  mean p 0.2234
+  US full pipeline: unadjusted 0.981820  EM-adjusted groups 0.981420
+  [US->India form conflict     ] n=  855,744 source prior 0.0042  TRUE target 0.0004  EM 0.0003  mean p 0.0005
+  [US->India near-number twin  ] n=  227,421 source prior 0.1512  TRUE target 0.0918  EM 0.0897  mean p 0.0913
+  [US->India other-number twin ] n=1,061,776 source prior 0.0417  TRUE target 0.0919  EM 0.0932  mean p 0.0918
+  [US->India empty cand address] n=  871,619 source prior 0.0400  TRUE target 0.0595  EM 0.0714  mean p 0.0589
+  [US->India rest              ] n=8,130,511 source prior 0.2233  TRUE target 0.1635  EM 0.1625  mean p 0.1635
+  India full pipeline: unadjusted 0.978290  EM-adjusted groups 0.977690

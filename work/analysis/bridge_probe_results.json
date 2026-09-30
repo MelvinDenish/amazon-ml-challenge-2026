@@ -1,0 +1,18 @@
+{
+  "India": {
+    "proposed_pairs": 899,
+    "proposal_precision": 0.3114571746384872,
+    "baseline_f05": 0.9782920389109119,
+    "pilot_f05": 0.9781042776135978,
+    "delta": -0.00018776129731412627,
+    "limitations": "Same historical OOF population and global preprocessing; no independent tuning split; not a leaderboard gain or production-ready rule."
+  },
+  "US": {
+    "proposed_pairs": 2681,
+    "proposal_precision": 0.34390152928011936,
+    "baseline_f05": 0.9818204658465735,
+    "pilot_f05": 0.9814670980416036,
+    "delta": -0.00035336780496986187,
+    "limitations": "Same historical OOF population and global preprocessing; no independent tuning split; not a leaderboard gain or production-ready rule."
+  }
+}

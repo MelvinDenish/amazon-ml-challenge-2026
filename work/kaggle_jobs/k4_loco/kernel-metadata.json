@@ -1,0 +1,20 @@
+{
+  "id": "melvindenishl/bedrock-k4-loco",
+  "title": "bedrock-k4-loco",
+  "code_file": "run.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "melvindenishl/amazon-ml",
+    "melvindenishl/bedrock-src",
+    "melvindenishl/bedrock-cands"
+  ],
+  "kernel_sources": [
+    "melvindenishl/bedrock-blk3-test",
+    "melvindenishl/bedrock-blk3-train-us"
+  ],
+  "competition_sources": []
+}

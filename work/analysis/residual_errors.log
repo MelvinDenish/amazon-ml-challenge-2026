@@ -1,0 +1,54 @@
+[India] S1 110,187  F0.5 0.98543 | remove all FP -> 0.98831 (+0.00288) | perfect on candidates 0.99380 | FP-free + all in-cand FN recovered 0.99380
+shape: (18, 4)
+┌────────────────────┬───────────┬───────────┬───────────┐
+│ group              ┆ band      ┆ FP_per_1k ┆ FN_per_1k │
+│ ---                ┆ ---       ┆ ---       ┆ ---       │
+│ str                ┆ str       ┆ f64       ┆ f64       │
+╞════════════════════╪═══════════╪═══════════╪═══════════╡
+│ empty cand address ┆ 0.005-0.5 ┆ 0.19      ┆ 37.13     │
+│ empty cand address ┆ 0.5-0.995 ┆ 1.57      ┆ 10.36     │
+│ empty cand address ┆ >=0.995   ┆ 0.05      ┆ null      │
+│ empty cand address ┆ p<0.005   ┆ null      ┆ 0.51      │
+│ form conflict      ┆ 0.005-0.5 ┆ null      ┆ 0.01      │
+│ form conflict      ┆ 0.5-0.995 ┆ 0.02      ┆ 0.03      │
+│ near-number twin   ┆ 0.005-0.5 ┆ null      ┆ 0.43      │
+│ near-number twin   ┆ 0.5-0.995 ┆ 0.11      ┆ 0.21      │
+│ near-number twin   ┆ >=0.995   ┆ 0.01      ┆ null      │
+│ near-number twin   ┆ p<0.005   ┆ null      ┆ 0.04      │
+│ other-number twin  ┆ 0.005-0.5 ┆ null      ┆ 0.95      │
+│ other-number twin  ┆ 0.5-0.995 ┆ 0.3       ┆ 0.64      │
+│ other-number twin  ┆ >=0.995   ┆ 0.06      ┆ null      │
+│ other-number twin  ┆ p<0.005   ┆ null      ┆ 0.07      │
+│ rest               ┆ 0.005-0.5 ┆ 0.09      ┆ 7.35      │
+│ rest               ┆ 0.5-0.995 ┆ 5.26      ┆ 6.72      │
+│ rest               ┆ >=0.995   ┆ 0.88      ┆ null      │
+│ rest               ┆ p<0.005   ┆ null      ┆ 0.54      │
+└────────────────────┴───────────┴───────────┴───────────┘
+[US] S1 165,215  F0.5 0.98581 | remove all FP -> 0.98836 (+0.00255) | perfect on candidates 0.99501 | FP-free + all in-cand FN recovered 0.99501
+shape: (20, 4)
+┌────────────────────┬───────────┬───────────┬───────────┐
+│ group              ┆ band      ┆ FP_per_1k ┆ FN_per_1k │
+│ ---                ┆ ---       ┆ ---       ┆ ---       │
+│ str                ┆ str       ┆ f64       ┆ f64       │
+╞════════════════════╪═══════════╪═══════════╪═══════════╡
+│ empty cand address ┆ 0.005-0.5 ┆ 0.24      ┆ 47.83     │
+│ empty cand address ┆ 0.5-0.995 ┆ 1.36      ┆ 11.03     │
+│ empty cand address ┆ >=0.995   ┆ 0.07      ┆ null      │
+│ empty cand address ┆ p<0.005   ┆ null      ┆ 1.12      │
+│ form conflict      ┆ 0.005-0.5 ┆ null      ┆ 0.83      │
+│ form conflict      ┆ 0.5-0.995 ┆ 0.07      ┆ 0.21      │
+│ form conflict      ┆ >=0.995   ┆ 0.05      ┆ null      │
+│ form conflict      ┆ p<0.005   ┆ null      ┆ 0.15      │
+│ near-number twin   ┆ 0.005-0.5 ┆ null      ┆ 0.87      │
+│ near-number twin   ┆ 0.5-0.995 ┆ 0.19      ┆ 0.51      │
+│ near-number twin   ┆ >=0.995   ┆ 0.01      ┆ null      │
+│ near-number twin   ┆ p<0.005   ┆ null      ┆ 0.07      │
+│ other-number twin  ┆ 0.005-0.5 ┆ null      ┆ 1.08      │
+│ other-number twin  ┆ 0.5-0.995 ┆ 0.38      ┆ 1.0       │
+│ other-number twin  ┆ >=0.995   ┆ 0.07      ┆ null      │
+│ other-number twin  ┆ p<0.005   ┆ null      ┆ 0.04      │
+│ rest               ┆ 0.005-0.5 ┆ 0.08      ┆ 5.79      │
+│ rest               ┆ 0.5-0.995 ┆ 3.84      ┆ 4.77      │
+│ rest               ┆ >=0.995   ┆ 0.99      ┆ null      │
+│ rest               ┆ p<0.005   ┆ null      ┆ 0.19      │
+└────────────────────┴───────────┴───────────┴───────────┘

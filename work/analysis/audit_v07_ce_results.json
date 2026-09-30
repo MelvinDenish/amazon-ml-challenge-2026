@@ -1,0 +1,507 @@
+{
+  "limitations": [
+    "Historical S1-held-out CE/stacker evaluation; not a new nested or country-held-out test.",
+    "Base OOF preprocessing and competitor universe have historical leakage/coverage limitations.",
+    "Oracles use train truth only. Test and France labels are unavailable.",
+    "Probability routing is measured using original blend_v7 p, not final stacked p."
+  ],
+  "countries": {
+    "India": {
+      "n_eval_s1": 110187,
+      "models": {
+        "ce1s": {
+          "macro_f05": 0.9862473082037921,
+          "pred_pairs": 368510,
+          "false_positive_pairs": 802,
+          "retrieved_false_negative_pairs": 6929,
+          "blocking_missed_pairs": 7403,
+          "true_pair_recall": 0.9806224479112134,
+          "candidate_oracle": 0.9937992187020989,
+          "remove_all_FP_oracle": 0.9882725415763127,
+          "add_all_retrieved_FN_oracle": 0.9917696835757678,
+          "add_all_blocking_FN_oracle": 0.9926950334206044,
+          "entity_errors": [
+            {
+              "error": "FN_only",
+              "n_s1": 12619,
+              "macro_loss": 0.011599383532490794
+            },
+            {
+              "error": "FP_only",
+              "n_s1": 604,
+              "macro_loss": 0.001261127146386421
+            },
+            {
+              "error": "singleton_FP",
+              "n_s1": 62,
+              "macro_loss": 0.0005626798079628268
+            },
+            {
+              "error": "FP_and_FN",
+              "n_s1": 115,
+              "macro_loss": 0.00032950130936779446
+            },
+            {
+              "error": "perfect",
+              "n_s1": 96787,
+              "macro_loss": 0.0
+            }
+          ],
+          "error_routing": [
+            {
+              "error": "FN",
+              "routed": false,
+              "len": 124
+            },
+            {
+              "error": "FN",
+              "routed": true,
+              "len": 6805
+            },
+            {
+              "error": "FP",
+              "routed": false,
+              "len": 79
+            },
+            {
+              "error": "FP",
+              "routed": true,
+              "len": 723
+            }
+          ],
+          "error_groups": [
+            {
+              "group": "empty_address",
+              "error": "FN",
+              "len": 4999
+            },
+            {
+              "group": "empty_address",
+              "error": "FP",
+              "len": 187
+            },
+            {
+              "group": "form_conflict",
+              "error": "FN",
+              "len": 4
+            },
+            {
+              "group": "form_conflict",
+              "error": "FP",
+              "len": 2
+            },
+            {
+              "group": "near_twin",
+              "error": "FN",
+              "len": 71
+            },
+            {
+              "group": "near_twin",
+              "error": "FP",
+              "len": 16
+            },
+            {
+              "group": "other_twin",
+              "error": "FN",
+              "len": 165
+            },
+            {
+              "group": "other_twin",
+              "error": "FP",
+              "len": 42
+            },
+            {
+              "group": "rest",
+              "error": "FN",
+              "len": 1690
+            },
+            {
+              "group": "rest",
+              "error": "FP",
+              "len": 555
+            }
+          ],
+          "perfect_nonrouted_errors_oracle": 0.9865215568270532,
+          "recover_empty_address_FN_oracle": 0.9901108934479749,
+          "CE_v2_eval_target_overlap": {
+            "unique_target_ids": 31594,
+            "eval_pairs": 75709,
+            "eval_S1s": 40260,
+            "note": "Target reuse across different S1s, not necessarily positive-label leakage."
+          },
+          "wrong_S1_other_max_rows": 86919
+        },
+        "ce12": {
+          "macro_f05": 0.9874813706415871,
+          "pred_pairs": 369107,
+          "false_positive_pairs": 592,
+          "retrieved_false_negative_pairs": 6122,
+          "blocking_missed_pairs": 7403,
+          "true_pair_recall": 0.9806224479112134,
+          "candidate_oracle": 0.993799218702099,
+          "remove_all_FP_oracle": 0.988960924522068,
+          "add_all_retrieved_FN_oracle": 0.9923213990139957,
+          "add_all_blocking_FN_oracle": 0.9938869174367434,
+          "entity_errors": [
+            {
+              "error": "FN_only",
+              "n_s1": 11968,
+              "macro_loss": 0.010957352140674314
+            },
+            {
+              "error": "FP_only",
+              "n_s1": 451,
+              "macro_loss": 0.0009527140165503811
+            },
+            {
+              "error": "singleton_FP",
+              "n_s1": 41,
+              "macro_loss": 0.00037209471171735324
+            },
+            {
+              "error": "FP_and_FN",
+              "n_s1": 84,
+              "macro_loss": 0.00023646848947064388
+            },
+            {
+              "error": "perfect",
+              "n_s1": 97643,
+              "macro_loss": 0.0
+            }
+          ],
+          "error_routing": [
+            {
+              "error": "FN",
+              "routed": false,
+              "len": 124
+            },
+            {
+              "error": "FN",
+              "routed": true,
+              "len": 5998
+            },
+            {
+              "error": "FP",
+              "routed": false,
+              "len": 79
+            },
+            {
+              "error": "FP",
+              "routed": true,
+              "len": 513
+            }
+          ],
+          "error_groups": [
+            {
+              "group": "empty_address",
+              "error": "FN",
+              "len": 4937
+            },
+            {
+              "group": "empty_address",
+              "error": "FP",
+              "len": 186
+            },
+            {
+              "group": "form_conflict",
+              "error": "FN",
+              "len": 3
+            },
+            {
+              "group": "near_twin",
+              "error": "FN",
+              "len": 44
+            },
+            {
+              "group": "near_twin",
+              "error": "FP",
+              "len": 9
+            },
+            {
+              "group": "other_twin",
+              "error": "FN",
+              "len": 100
+            },
+            {
+              "group": "other_twin",
+              "error": "FP",
+              "len": 25
+            },
+            {
+              "group": "rest",
+              "error": "FN",
+              "len": 1038
+            },
+            {
+              "group": "rest",
+              "error": "FP",
+              "len": 372
+            }
+          ],
+          "perfect_nonrouted_errors_oracle": 0.9877549817810048,
+          "recover_empty_address_FN_oracle": 0.9913048941935784
+        }
+      }
+    },
+    "US": {
+      "n_eval_s1": 165215,
+      "models": {
+        "ce1s": {
+          "macro_f05": 0.9863642921500992,
+          "pred_pairs": 552813,
+          "false_positive_pairs": 1117,
+          "retrieved_false_negative_pairs": 12038,
+          "blocking_missed_pairs": 8491,
+          "true_pair_recall": 0.9851614312551881,
+          "candidate_oracle": 0.9950072581419432,
+          "remove_all_FP_oracle": 0.9883189491871377,
+          "add_all_retrieved_FN_oracle": 0.9930573152186553,
+          "add_all_blocking_FN_oracle": 0.9915495645356025,
+          "entity_errors": [
+            {
+              "error": "FN_only",
+              "n_s1": 18069,
+              "macro_loss": 0.011603970269407687
+            },
+            {
+              "error": "FP_only",
+              "n_s1": 888,
+              "macro_loss": 0.0012336990196256305
+            },
+            {
+              "error": "singleton_FP",
+              "n_s1": 96,
+              "macro_loss": 0.0005810610416729716
+            },
+            {
+              "error": "FP_and_FN",
+              "n_s1": 116,
+              "macro_loss": 0.00021697751919456826
+            },
+            {
+              "error": "perfect",
+              "n_s1": 146046,
+              "macro_loss": 0.0
+            }
+          ],
+          "error_routing": [
+            {
+              "error": "FN",
+              "routed": false,
+              "len": 258
+            },
+            {
+              "error": "FN",
+              "routed": true,
+              "len": 11780
+            },
+            {
+              "error": "FP",
+              "routed": false,
+              "len": 112
+            },
+            {
+              "error": "FP",
+              "routed": true,
+              "len": 1005
+            }
+          ],
+          "error_groups": [
+            {
+              "group": "empty_address",
+              "error": "FN",
+              "len": 9548
+            },
+            {
+              "group": "empty_address",
+              "error": "FP",
+              "len": 305
+            },
+            {
+              "group": "form_conflict",
+              "error": "FN",
+              "len": 106
+            },
+            {
+              "group": "form_conflict",
+              "error": "FP",
+              "len": 15
+            },
+            {
+              "group": "near_twin",
+              "error": "FN",
+              "len": 232
+            },
+            {
+              "group": "near_twin",
+              "error": "FP",
+              "len": 36
+            },
+            {
+              "group": "other_twin",
+              "error": "FN",
+              "len": 331
+            },
+            {
+              "group": "other_twin",
+              "error": "FP",
+              "len": 73
+            },
+            {
+              "group": "rest",
+              "error": "FN",
+              "len": 1821
+            },
+            {
+              "group": "rest",
+              "error": "FP",
+              "len": 688
+            }
+          ],
+          "perfect_nonrouted_errors_oracle": 0.9866988337342323,
+          "recover_empty_address_FN_oracle": 0.9915628078748733,
+          "CE_v2_eval_target_overlap": {
+            "unique_target_ids": 52915,
+            "eval_pairs": 139120,
+            "eval_S1s": 53296,
+            "note": "Target reuse across different S1s, not necessarily positive-label leakage."
+          },
+          "wrong_S1_other_max_rows": 135946
+        },
+        "ce12": {
+          "macro_f05": 0.9873314750239596,
+          "pred_pairs": 553160,
+          "false_positive_pairs": 825,
+          "retrieved_false_negative_pairs": 11399,
+          "blocking_missed_pairs": 8491,
+          "true_pair_recall": 0.9851614312551881,
+          "candidate_oracle": 0.995007258141943,
+          "remove_all_FP_oracle": 0.9887533199874302,
+          "add_all_retrieved_FN_oracle": 0.9935811416406054,
+          "add_all_blocking_FN_oracle": 0.9925080225140284,
+          "entity_errors": [
+            {
+              "error": "FN_only",
+              "n_s1": 17535,
+              "macro_loss": 0.01116591662564764
+            },
+            {
+              "error": "FP_only",
+              "n_s1": 668,
+              "macro_loss": 0.0009333855016506543
+            },
+            {
+              "error": "singleton_FP",
+              "n_s1": 64,
+              "macro_loss": 0.00038737402778198104
+            },
+            {
+              "error": "FP_and_FN",
+              "n_s1": 85,
+              "macro_loss": 0.00018184882096021983
+            },
+            {
+              "error": "perfect",
+              "n_s1": 146863,
+              "macro_loss": 0.0
+            }
+          ],
+          "error_routing": [
+            {
+              "error": "FN",
+              "routed": false,
+              "len": 258
+            },
+            {
+              "error": "FN",
+              "routed": true,
+              "len": 11141
+            },
+            {
+              "error": "FP",
+              "routed": false,
+              "len": 112
+            },
+            {
+              "error": "FP",
+              "routed": true,
+              "len": 713
+            }
+          ],
+          "error_groups": [
+            {
+              "group": "empty_address",
+              "error": "FN",
+              "len": 9460
+            },
+            {
+              "group": "empty_address",
+              "error": "FP",
+              "len": 311
+            },
+            {
+              "group": "form_conflict",
+              "error": "FN",
+              "len": 65
+            },
+            {
+              "group": "form_conflict",
+              "error": "FP",
+              "len": 4
+            },
+            {
+              "group": "near_twin",
+              "error": "FN",
+              "len": 169
+            },
+            {
+              "group": "near_twin",
+              "error": "FP",
+              "len": 23
+            },
+            {
+              "group": "other_twin",
+              "error": "FN",
+              "len": 234
+            },
+            {
+              "group": "other_twin",
+              "error": "FP",
+              "len": 65
+            },
+            {
+              "group": "rest",
+              "error": "FN",
+              "len": 1471
+            },
+            {
+              "group": "rest",
+              "error": "FP",
+              "len": 422
+            }
+          ],
+          "perfect_nonrouted_errors_oracle": 0.9876719724655487,
+          "recover_empty_address_FN_oracle": 0.9924682365259565
+        }
+      }
+    }
+  },
+  "paired_comparison": {
+    "India": {
+      "mean_delta": 0.0012340624377951423,
+      "improved_S1": 1259,
+      "worsened_S1": 277,
+      "paired_SE_S1_assuming_independence": 9.306883931235516e-05,
+      "positive_delta_sum": 191.88014272771198,
+      "negative_delta_sum": -55.90250489437864
+    },
+    "US": {
+      "mean_delta": 0.000967182873860363,
+      "improved_S1": 1307,
+      "worsened_S1": 393,
+      "paired_SE_S1_assuming_independence": 7.018156790165535e-05,
+      "positive_delta_sum": 229.35677261991162,
+      "negative_delta_sum": -69.56365411507176
+    }
+  }
+}

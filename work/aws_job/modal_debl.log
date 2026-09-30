@@ -1,0 +1,50 @@
+C:\Users\L Melvin Denish\AppData\Roaming\Python\Python314\site-packages\modal\_utils\async_utils.py:43: DeprecationWarning: 'asyncio.WindowsSelectorEventLoopPolicy' is deprecated and slated for removal in Python 3.16
+  asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+C:\Users\L Melvin Denish\AppData\Roaming\Python\Python314\site-packages\modal\_utils\async_utils.py:43: DeprecationWarning: 'asyncio.set_event_loop_policy' is deprecated and slated for removal in Python 3.16
+  asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/lmelvindenish/main/ap-lpZFPjTDjie7GFXcZOY02k
+✓ Created objects.
+├── 🔨 Created mount C:\Users\L Melvin 
+│   Denish\Amazon_ML\work\aws_job\modal_ce.py
+└── 🔨 Created function run.
+[debl] NVIDIA A100-SXM4-80GB train pairs 1,519,873 (14s)
+/usr/local/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/usr/local/lib/python3.11/site-packages/transformers/convert_slow_tokenizer.py:551: UserWarning: The sentencepiece tokenizer that you are converting to a fast tokenizer uses the byte fallback option which is not implemented in the fast tokenizers. In practice this means that the fast version of the tokenizer can produce unknown tokens whereas the sentencepiece version would have converted these unknown tokens into a sequence of byte tokens matching the original piece of text.
+  warnings.warn(
+Some weights of DebertaV2ForSequenceClassification were not initialized from the model checkpoint at microsoft/deberta-v3-large and are newly initialized: ['classifier.bias', 'classifier.weight', 'pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[debl] step 1000/23749 loss 0.3135 284s
+[debl] step 2000/23749 loss 0.1717 537s
+[debl] step 3000/23749 loss 0.1301 788s
+[debl] step 4000/23749 loss 0.1063 1040s
+[debl] step 5000/23749 loss 0.0986 1292s
+[debl] step 6000/23749 loss 0.1825 1545s
+[debl] step 7000/23749 loss 0.1687 1797s
+[debl] step 8000/23749 loss 0.2712 2049s
+[debl] step 9000/23749 loss 0.1224 2302s
+[debl] step 10000/23749 loss 0.2443 2554s
+[debl] step 11000/23749 loss 0.1728 2807s
+[debl] step 12000/23749 loss 0.2463 3059s
+[debl] step 13000/23749 loss 0.2146 3311s
+[debl] step 14000/23749 loss 0.1516 3563s
+[debl] step 15000/23749 loss 0.1474 3817s
+[debl] step 16000/23749 loss 0.2522 4069s
+[debl] step 17000/23749 loss 0.2875 4323s
+[debl] step 18000/23749 loss 0.1943 4574s
+[debl] step 19000/23749 loss 0.1689 4826s
+[debl] step 20000/23749 loss 0.0758 5078s
+[debl] step 21000/23749 loss 0.1589 5330s
+[debl] step 22000/23749 loss 0.1918 5582s
+[debl] step 23000/23749 loss 0.2133 5834s
+[debl] eval logloss 0.1504
+[debl] uploaded eval 411,798 6303s
+[debl] eval_x logloss 0.1447
+[debl] uploaded eval_x 67,227 6360s
+[debl] uploaded test_x 401,923 6717s
+[debl] uploaded test 3,545,879 9449s
+debl done: eval logloss 0.1504; eval_x logloss 0.1447
+✓ App completed. View run at 
+https://modal.com/apps/lmelvindenish/main/ap-lpZFPjTDjie7GFXcZOY02k

@@ -1,0 +1,13 @@
+{
+  "id": "melvindenishl/bedrock-er-job",
+  "title": "bedrock-er-job",
+  "code_file": "run.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": ["melvindenishl/amazon-ml"],
+  "competition_sources": [],
+  "kernel_sources": []
+}

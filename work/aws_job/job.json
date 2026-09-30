@@ -1,0 +1,11 @@
+{
+  "TrainingJobName": "bedrock-xlmrl-1700",
+  "RoleArn": "arn:aws:iam::987569577835:role/service-role/AmazonSageMakerAdminIAMExecutionRole",
+  "AlgorithmSpecification": {"TrainingImage": "763104351884.dkr.ecr.ap-south-1.amazonaws.com/huggingface-pytorch-training:2.1.0-transformers4.36.0-gpu-py310-cu121-ubuntu20.04", "TrainingInputMode": "File"},
+  "HyperParameters": {"sagemaker_program": "\"train_ce.py\"", "sagemaker_submit_directory": "\"s3://bedrock-er-987569577835-aps1/code/sourcedir.tar.gz\"", "sagemaker_region": "\"ap-south-1\"",
+                      "model": "\"xlm-roberta-large\"", "lr": "\"1e-5\"", "bs": "\"32\"", "max-len": "\"128\"", "epochs": "\"1\""},
+  "InputDataConfig": [{"ChannelName": "data", "DataSource": {"S3DataSource": {"S3DataType": "S3Prefix", "S3Uri": "s3://bedrock-er-987569577835-aps1/data/", "S3DataDistributionType": "FullyReplicated"}}}],
+  "OutputDataConfig": {"S3OutputPath": "s3://bedrock-er-987569577835-aps1/output/"},
+  "ResourceConfig": {"InstanceType": "ml.g5.2xlarge", "InstanceCount": 1, "VolumeSizeInGB": 60},
+  "StoppingCondition": {"MaxRuntimeInSeconds": 25200}
+}

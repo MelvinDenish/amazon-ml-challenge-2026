@@ -1,0 +1,6 @@
+eval S1s 275,402 pairs 6,804,688 routed 411,798 (CE pairs matched 411,798/411,798)
+stacker coef [logit p, ce, product]: [0.756 0.618 0.04 ] intercept 0.242
+  base     owner_prob=False India 0.97823 US 0.98197 overall 0.98047
+  base     owner_prob=True  India 0.97829 US 0.98204 overall 0.98054
+  base+CE  owner_prob=False India 0.98533 US 0.98572 overall 0.98556
+  base+CE  owner_prob=True  India 0.98543 US 0.98581 overall 0.98566

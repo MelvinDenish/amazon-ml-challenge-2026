@@ -1,0 +1,524 @@
+{
+  "data": {
+    "train_source1": [
+      {
+        "country": "India",
+        "len": 883188
+      },
+      {
+        "country": "US",
+        "len": 1323633
+      }
+    ],
+    "train_source2": [
+      {
+        "country": "India",
+        "len": 2017799
+      },
+      {
+        "country": "US",
+        "len": 3016817
+      }
+    ],
+    "train_source3": [
+      {
+        "country": "India",
+        "len": 2115547
+      },
+      {
+        "country": "US",
+        "len": 3170056
+      }
+    ],
+    "test_source1": [
+      {
+        "country": "India",
+        "len": 809986
+      },
+      {
+        "country": "France",
+        "len": 259452
+      },
+      {
+        "country": "US",
+        "len": 663106
+      }
+    ],
+    "test_source2": [
+      {
+        "country": "India",
+        "len": 2312565
+      },
+      {
+        "country": "US",
+        "len": 1871330
+      },
+      {
+        "country": "France",
+        "len": 703378
+      }
+    ],
+    "test_source3": [
+      {
+        "country": "US",
+        "len": 1945701
+      },
+      {
+        "country": "India",
+        "len": 2405000
+      },
+      {
+        "country": "France",
+        "len": 731615
+      }
+    ]
+  },
+  "countries": {
+    "India": {
+      "root_cache_blocking": {
+        "s1_total": 883188,
+        "true_pairs": 3059843,
+        "candidate_pair_recall": 0.9637275507272759,
+        "candidate_macro_oracle": 0.9877429500399806,
+        "nonempty_s1_with_no_true_candidate": 2814,
+        "s1_with_missing_truth": 92015,
+        "singletons": 49351
+      },
+      "oof_s1": 441582,
+      "oof_pairs": 11147071,
+      "oof_macro": 0.9782920389109119,
+      "oof_candidate_oracle": 0.9940100874677749,
+      "v06_sample_candidate_pair_recall": 0.9807435438600391,
+      "v06_sample_blocking_missed_pairs": 29453,
+      "oof_if_remove_all_fp": 0.9848294466642169,
+      "oof_error_groups": [
+        {
+          "error_type": "fn_only",
+          "n_s1": 64099,
+          "total_score_loss": 6532.670337555551,
+          "fp": 0,
+          "fn": 72728
+        },
+        {
+          "error_type": "singleton_false_merge",
+          "n_s1": 1244,
+          "total_score_loss": 1244.0,
+          "fp": 1311,
+          "fn": 0
+        },
+        {
+          "error_type": "both_fp_fn",
+          "n_s1": 1374,
+          "total_score_loss": 432.99500752795143,
+          "fp": 1404,
+          "fn": 1559
+        },
+        {
+          "error_type": "perfect",
+          "n_s1": 368380,
+          "total_score_loss": 0.0,
+          "fp": 0,
+          "fn": 0
+        },
+        {
+          "error_type": "fp_only",
+          "n_s1": 6485,
+          "total_score_loss": 1376.1795285582107,
+          "fp": 6580,
+          "fn": 0
+        }
+      ],
+      "fp_pairs": 9295,
+      "retrieved_but_missed_pairs": 44834,
+      "true_pairs_lost_by_one_owner": 12328,
+      "threshold_scores": {
+        "0.5": 0.9769475619147195,
+        "0.6": 0.9781908707311677,
+        "0.7": 0.9785693748876559,
+        "0.8": 0.9777202330573476,
+        "0.9": 0.9741757287090598
+      },
+      "calibration": [
+        {
+          "bin": 0,
+          "n": 9530405,
+          "p": 0.0007424949435517192,
+          "y": 0.0007930407994203814
+        },
+        {
+          "bin": 1,
+          "n": 48219,
+          "p": 0.07022304087877274,
+          "y": 0.06516103610609926
+        },
+        {
+          "bin": 2,
+          "n": 22059,
+          "p": 0.122822105884552,
+          "y": 0.12421233963461625
+        },
+        {
+          "bin": 3,
+          "n": 13880,
+          "p": 0.1733640879392624,
+          "y": 0.16988472622478387
+        },
+        {
+          "bin": 4,
+          "n": 10150,
+          "p": 0.2238333374261856,
+          "y": 0.22029556650246304
+        },
+        {
+          "bin": 5,
+          "n": 8457,
+          "p": 0.2741512656211853,
+          "y": 0.2616767175121201
+        },
+        {
+          "bin": 6,
+          "n": 7157,
+          "p": 0.3243871033191681,
+          "y": 0.32415816682967724
+        },
+        {
+          "bin": 7,
+          "n": 6351,
+          "p": 0.37424466013908386,
+          "y": 0.3663989922846796
+        },
+        {
+          "bin": 8,
+          "n": 6074,
+          "p": 0.42481353878974915,
+          "y": 0.41916364833717484
+        },
+        {
+          "bin": 9,
+          "n": 5813,
+          "p": 0.47495216131210327,
+          "y": 0.4708412179597454
+        },
+        {
+          "bin": 10,
+          "n": 5539,
+          "p": 0.5244713425636292,
+          "y": 0.50857555515436
+        },
+        {
+          "bin": 11,
+          "n": 5050,
+          "p": 0.5748152136802673,
+          "y": 0.5540594059405941
+        },
+        {
+          "bin": 12,
+          "n": 4911,
+          "p": 0.6250461935997009,
+          "y": 0.6135206678884138
+        },
+        {
+          "bin": 13,
+          "n": 5030,
+          "p": 0.6751640439033508,
+          "y": 0.6685884691848907
+        },
+        {
+          "bin": 14,
+          "n": 5575,
+          "p": 0.7254993319511414,
+          "y": 0.7377578475336323
+        },
+        {
+          "bin": 15,
+          "n": 6584,
+          "p": 0.7758671641349792,
+          "y": 0.7825030376670717
+        },
+        {
+          "bin": 16,
+          "n": 9029,
+          "p": 0.8262554407119751,
+          "y": 0.8389633403477683
+        },
+        {
+          "bin": 17,
+          "n": 13582,
+          "p": 0.8772602081298828,
+          "y": 0.8838904432336917
+        },
+        {
+          "bin": 18,
+          "n": 27694,
+          "p": 0.9288107752799988,
+          "y": 0.9377482487181339
+        },
+        {
+          "bin": 19,
+          "n": 1405512,
+          "p": 0.9978541135787964,
+          "y": 0.998267535246942
+        }
+      ],
+      "pair_error_groups": [
+        {
+          "group": "rest",
+          "FP": 7619,
+          "retrieved_FN": 22305,
+          "TP": 1307160
+        },
+        {
+          "group": "other_number_twin",
+          "FP": 567,
+          "retrieved_FN": 1773,
+          "TP": 95759
+        },
+        {
+          "group": "near_number_twin",
+          "FP": 168,
+          "retrieved_FN": 746,
+          "TP": 20132
+        },
+        {
+          "group": "form_conflict",
+          "FP": 9,
+          "retrieved_FN": 29,
+          "TP": 318
+        },
+        {
+          "group": "empty_address",
+          "FP": 932,
+          "retrieved_FN": 19981,
+          "TP": 31857
+        }
+      ],
+      "elapsed_seconds": 19.0
+    },
+    "US": {
+      "root_cache_blocking": {
+        "s1_total": 1323633,
+        "true_pairs": 4578522,
+        "candidate_pair_recall": 0.9766479226265594,
+        "candidate_macro_oracle": 0.9920811180037857,
+        "nonempty_s1_with_no_true_candidate": 2738,
+        "s1_with_missing_truth": 90440,
+        "singletons": 73896
+      },
+      "oof_s1": 661724,
+      "oof_pairs": 16114768,
+      "oof_macro": 0.9818204658465736,
+      "oof_candidate_oracle": 0.9950606400061227,
+      "v06_sample_candidate_pair_recall": 0.9853299900697736,
+      "v06_sample_blocking_missed_pairs": 33594,
+      "oof_if_remove_all_fp": 0.986631704078526,
+      "oof_error_groups": [
+        {
+          "error_type": "singleton_false_merge",
+          "n_s1": 1383,
+          "total_score_loss": 1383.0,
+          "fp": 1481,
+          "fn": 0
+        },
+        {
+          "error_type": "fp_only",
+          "n_s1": 7461,
+          "total_score_loss": 1563.830971392697,
+          "fp": 7518,
+          "fn": 0
+        },
+        {
+          "error_type": "perfect",
+          "n_s1": 568969,
+          "total_score_loss": 0.0,
+          "fp": 0,
+          "fn": 0
+        },
+        {
+          "error_type": "fn_only",
+          "n_s1": 82684,
+          "total_score_loss": 8693.744579871143,
+          "fp": 0,
+          "fn": 93141
+        },
+        {
+          "error_type": "both_fp_fn",
+          "n_s1": 1227,
+          "total_score_loss": 389.25850687799505,
+          "fp": 1243,
+          "fn": 1364
+        }
+      ],
+      "fp_pairs": 10242,
+      "retrieved_but_missed_pairs": 60911,
+      "true_pairs_lost_by_one_owner": 22145,
+      "threshold_scores": {
+        "0.5": 0.9805710170580149,
+        "0.6": 0.9816549191744052,
+        "0.7": 0.9819693114326219,
+        "0.8": 0.981522591106495,
+        "0.9": 0.9791525044877026
+      },
+      "calibration": [
+        {
+          "bin": 0,
+          "n": 13690651,
+          "p": 0.0007023394573479891,
+          "y": 0.0007716944942939528
+        },
+        {
+          "bin": 1,
+          "n": 66899,
+          "p": 0.07112691551446915,
+          "y": 0.07200406583058043
+        },
+        {
+          "bin": 2,
+          "n": 33467,
+          "p": 0.12303341180086136,
+          "y": 0.12364418681088833
+        },
+        {
+          "bin": 3,
+          "n": 22804,
+          "p": 0.17393353581428528,
+          "y": 0.1761533064374671
+        },
+        {
+          "bin": 4,
+          "n": 17103,
+          "p": 0.22405579686164856,
+          "y": 0.2256913991697363
+        },
+        {
+          "bin": 5,
+          "n": 13741,
+          "p": 0.2740683853626251,
+          "y": 0.26067971763336
+        },
+        {
+          "bin": 6,
+          "n": 11447,
+          "p": 0.3243791162967682,
+          "y": 0.31589062636498644
+        },
+        {
+          "bin": 7,
+          "n": 9793,
+          "p": 0.37452441453933716,
+          "y": 0.36189114673746553
+        },
+        {
+          "bin": 8,
+          "n": 8740,
+          "p": 0.4246327579021454,
+          "y": 0.41132723112128144
+        },
+        {
+          "bin": 9,
+          "n": 8026,
+          "p": 0.4748436510562897,
+          "y": 0.44069274856715673
+        },
+        {
+          "bin": 10,
+          "n": 6865,
+          "p": 0.5241043567657471,
+          "y": 0.5003641660597232
+        },
+        {
+          "bin": 11,
+          "n": 5642,
+          "p": 0.5749475359916687,
+          "y": 0.5398794753633464
+        },
+        {
+          "bin": 12,
+          "n": 5195,
+          "p": 0.6248359680175781,
+          "y": 0.5934552454282964
+        },
+        {
+          "bin": 13,
+          "n": 5225,
+          "p": 0.6750993728637695,
+          "y": 0.6535885167464115
+        },
+        {
+          "bin": 14,
+          "n": 5535,
+          "p": 0.7255024313926697,
+          "y": 0.7096657633242999
+        },
+        {
+          "bin": 15,
+          "n": 6719,
+          "p": 0.7760621905326843,
+          "y": 0.7730317011460038
+        },
+        {
+          "bin": 16,
+          "n": 9041,
+          "p": 0.8266729712486267,
+          "y": 0.8347527928326512
+        },
+        {
+          "bin": 17,
+          "n": 14389,
+          "p": 0.8772252202033997,
+          "y": 0.8899159079852665
+        },
+        {
+          "bin": 18,
+          "n": 29456,
+          "p": 0.9287727475166321,
+          "y": 0.933901412275937
+        },
+        {
+          "bin": 19,
+          "n": 2144030,
+          "p": 0.998310923576355,
+          "y": 0.9986572016249773
+        }
+      ],
+      "pair_error_groups": [
+        {
+          "group": "near_number_twin",
+          "FP": 352,
+          "retrieved_FN": 1738,
+          "TP": 35303
+        },
+        {
+          "group": "other_number_twin",
+          "FP": 592,
+          "retrieved_FN": 2513,
+          "TP": 107805
+        },
+        {
+          "group": "rest",
+          "FP": 7395,
+          "retrieved_FN": 17419,
+          "TP": 1989015
+        },
+        {
+          "group": "form_conflict",
+          "FP": 139,
+          "retrieved_FN": 1159,
+          "TP": 6639
+        },
+        {
+          "group": "empty_address",
+          "FP": 1764,
+          "retrieved_FN": 38082,
+          "TP": 56711
+        }
+      ],
+      "elapsed_seconds": 34.4
+    }
+  },
+  "provenance": {
+    "oof": "C:\\Users\\L Melvin Denish\\Amazon_ML\\work\\artifacts\\k2_out_v2\\artifacts\\oof\\xgb_v6.parquet",
+    "root_candidate_cache": "Older pool-150 candidates; not the v06 pool-600 artifact.",
+    "v06_oracle": "Computed from y=1 pairs in the exact saved v06 OOF table, on its sampled S1 population.",
+    "limitations": "OOF contains sampled S1s with candidates, globally learned transliteration, and sampled ownership competitors. France has no labels."
+  }
+}

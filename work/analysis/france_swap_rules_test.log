@@ -1,0 +1,4 @@
+  vocab = (q.select(pl.col("qt").explode().alias("w")).group_by("w").len()
+France rule pairs: [('noise', 125.1, 0.775), ('noun', 264.9, 0.234)]
+France 'noun': selections removed 52.8/1k S1, added 0.3/1k S1; matches/S1 3.312 -> 3.259
+wrote artifacts/oof/test_v11_noun.parquet

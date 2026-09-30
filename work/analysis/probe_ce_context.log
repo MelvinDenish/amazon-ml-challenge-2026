@@ -1,0 +1,2 @@
+{"original": {"countries": [{"country": "US", "f05": 0.986313536020926}, {"country": "India", "f05": 0.9862291530117416}], "pooled": 0.9862797747895878, "best_iterations": [287, 303], "seconds": 24.320557355880737}}
+{"correct_other_max": {"countries": [{"country": "India", "f05": 0.9862193399524345}, {"country": "US", "f05": 0.9864073132521894}], "pooled": 0.9863321060497, "best_iterations": [301, 276], "seconds": 24.96418595314026}}

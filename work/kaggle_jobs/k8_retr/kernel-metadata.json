@@ -1,0 +1,13 @@
+{
+  "id": "melvindenishl/bedrock-k8-retr",
+  "title": "bedrock-k8-retr",
+  "code_file": "run.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": ["melvindenishl/amazon-ml", "melvindenishl/bedrock-src"],
+  "kernel_sources": [],
+  "competition_sources": []
+}

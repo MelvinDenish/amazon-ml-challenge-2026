@@ -1,0 +1,927 @@
+{
+  "country_counts": [
+    {
+      "country": "France",
+      "len": 259452
+    },
+    {
+      "country": "India",
+      "len": 809986
+    },
+    {
+      "country": "US",
+      "len": 663106
+    }
+  ],
+  "n_s1": 1732544,
+  "public_subset_country_weights_unknown": true,
+  "current_best_score": 0.985752,
+  "v12_is_unsubmitted": true,
+  "comparisons": {
+    "v10_up1_ce8_fr09plus": {
+      "country_row_changes": [
+        {
+          "country": "France",
+          "n": 259452,
+          "changed": 13352
+        },
+        {
+          "country": "India",
+          "n": 809986,
+          "changed": 0
+        },
+        {
+          "country": "US",
+          "n": 663106,
+          "changed": 0
+        }
+      ],
+      "France_added": 13688,
+      "France_removed": 73,
+      "France_changed_S1": 13352,
+      "empty_to_nonempty": 766,
+      "nonempty_to_empty": 3,
+      "set_size_changes": [
+        {
+          "old_n": 3,
+          "new_n": 4,
+          "len": 3200
+        },
+        {
+          "old_n": 4,
+          "new_n": 5,
+          "len": 2698
+        },
+        {
+          "old_n": 2,
+          "new_n": 3,
+          "len": 2485
+        },
+        {
+          "old_n": 5,
+          "new_n": 6,
+          "len": 1629
+        },
+        {
+          "old_n": 1,
+          "new_n": 2,
+          "len": 1018
+        },
+        {
+          "old_n": 6,
+          "new_n": 7,
+          "len": 780
+        },
+        {
+          "old_n": 0,
+          "new_n": 1,
+          "len": 737
+        },
+        {
+          "old_n": 7,
+          "new_n": 8,
+          "len": 281
+        },
+        {
+          "old_n": 3,
+          "new_n": 5,
+          "len": 85
+        },
+        {
+          "old_n": 4,
+          "new_n": 6,
+          "len": 82
+        },
+        {
+          "old_n": 8,
+          "new_n": 9,
+          "len": 79
+        },
+        {
+          "old_n": 2,
+          "new_n": 4,
+          "len": 57
+        },
+        {
+          "old_n": 5,
+          "new_n": 7,
+          "len": 42
+        },
+        {
+          "old_n": 1,
+          "new_n": 3,
+          "len": 33
+        },
+        {
+          "old_n": 0,
+          "new_n": 2,
+          "len": 29
+        },
+        {
+          "old_n": 6,
+          "new_n": 8,
+          "len": 23
+        },
+        {
+          "old_n": 1,
+          "new_n": 1,
+          "len": 14
+        },
+        {
+          "old_n": 9,
+          "new_n": 10,
+          "len": 11
+        },
+        {
+          "old_n": 2,
+          "new_n": 2,
+          "len": 10
+        },
+        {
+          "old_n": 7,
+          "new_n": 9,
+          "len": 8
+        },
+        {
+          "old_n": 5,
+          "new_n": 4,
+          "len": 8
+        },
+        {
+          "old_n": 4,
+          "new_n": 3,
+          "len": 6
+        },
+        {
+          "old_n": 3,
+          "new_n": 3,
+          "len": 6
+        },
+        {
+          "old_n": 3,
+          "new_n": 2,
+          "len": 6
+        },
+        {
+          "old_n": 2,
+          "new_n": 1,
+          "len": 6
+        },
+        {
+          "old_n": 4,
+          "new_n": 4,
+          "len": 4
+        },
+        {
+          "old_n": 6,
+          "new_n": 5,
+          "len": 3
+        },
+        {
+          "old_n": 1,
+          "new_n": 0,
+          "len": 3
+        },
+        {
+          "old_n": 5,
+          "new_n": 5,
+          "len": 2
+        },
+        {
+          "old_n": 8,
+          "new_n": 10,
+          "len": 2
+        },
+        {
+          "old_n": 2,
+          "new_n": 5,
+          "len": 1
+        },
+        {
+          "old_n": 5,
+          "new_n": 8,
+          "len": 1
+        },
+        {
+          "old_n": 8,
+          "new_n": 8,
+          "len": 1
+        },
+        {
+          "old_n": 9,
+          "new_n": 11,
+          "len": 1
+        },
+        {
+          "old_n": 7,
+          "new_n": 6,
+          "len": 1
+        }
+      ]
+    },
+    "v11_up3_ml5fr_noun": {
+      "country_row_changes": [
+        {
+          "country": "France",
+          "n": 259452,
+          "changed": 15357
+        },
+        {
+          "country": "India",
+          "n": 809986,
+          "changed": 0
+        },
+        {
+          "country": "US",
+          "n": 663106,
+          "changed": 0
+        }
+      ],
+      "France_added": 8399,
+      "France_removed": 7671,
+      "France_changed_S1": 15357,
+      "empty_to_nonempty": 285,
+      "nonempty_to_empty": 332,
+      "set_size_changes": [
+        {
+          "old_n": 3,
+          "new_n": 4,
+          "len": 1874
+        },
+        {
+          "old_n": 2,
+          "new_n": 3,
+          "len": 1769
+        },
+        {
+          "old_n": 4,
+          "new_n": 3,
+          "len": 1762
+        },
+        {
+          "old_n": 3,
+          "new_n": 2,
+          "len": 1563
+        },
+        {
+          "old_n": 4,
+          "new_n": 5,
+          "len": 1490
+        },
+        {
+          "old_n": 5,
+          "new_n": 4,
+          "len": 1329
+        },
+        {
+          "old_n": 1,
+          "new_n": 2,
+          "len": 915
+        },
+        {
+          "old_n": 5,
+          "new_n": 6,
+          "len": 899
+        },
+        {
+          "old_n": 2,
+          "new_n": 1,
+          "len": 761
+        },
+        {
+          "old_n": 6,
+          "new_n": 5,
+          "len": 759
+        },
+        {
+          "old_n": 6,
+          "new_n": 7,
+          "len": 381
+        },
+        {
+          "old_n": 1,
+          "new_n": 0,
+          "len": 319
+        },
+        {
+          "old_n": 7,
+          "new_n": 6,
+          "len": 286
+        },
+        {
+          "old_n": 0,
+          "new_n": 1,
+          "len": 278
+        },
+        {
+          "old_n": 7,
+          "new_n": 8,
+          "len": 143
+        },
+        {
+          "old_n": 8,
+          "new_n": 7,
+          "len": 128
+        },
+        {
+          "old_n": 4,
+          "new_n": 4,
+          "len": 69
+        },
+        {
+          "old_n": 4,
+          "new_n": 2,
+          "len": 55
+        },
+        {
+          "old_n": 3,
+          "new_n": 3,
+          "len": 54
+        },
+        {
+          "old_n": 5,
+          "new_n": 5,
+          "len": 54
+        },
+        {
+          "old_n": 2,
+          "new_n": 2,
+          "len": 52
+        },
+        {
+          "old_n": 5,
+          "new_n": 3,
+          "len": 45
+        },
+        {
+          "old_n": 3,
+          "new_n": 5,
+          "len": 40
+        },
+        {
+          "old_n": 4,
+          "new_n": 6,
+          "len": 35
+        },
+        {
+          "old_n": 3,
+          "new_n": 1,
+          "len": 31
+        },
+        {
+          "old_n": 2,
+          "new_n": 4,
+          "len": 27
+        },
+        {
+          "old_n": 6,
+          "new_n": 4,
+          "len": 27
+        },
+        {
+          "old_n": 7,
+          "new_n": 5,
+          "len": 27
+        },
+        {
+          "old_n": 8,
+          "new_n": 9,
+          "len": 25
+        },
+        {
+          "old_n": 1,
+          "new_n": 1,
+          "len": 23
+        },
+        {
+          "old_n": 6,
+          "new_n": 6,
+          "len": 23
+        },
+        {
+          "old_n": 5,
+          "new_n": 7,
+          "len": 20
+        },
+        {
+          "old_n": 1,
+          "new_n": 3,
+          "len": 18
+        },
+        {
+          "old_n": 9,
+          "new_n": 8,
+          "len": 18
+        },
+        {
+          "old_n": 2,
+          "new_n": 0,
+          "len": 11
+        },
+        {
+          "old_n": 7,
+          "new_n": 7,
+          "len": 8
+        },
+        {
+          "old_n": 0,
+          "new_n": 2,
+          "len": 7
+        },
+        {
+          "old_n": 8,
+          "new_n": 8,
+          "len": 4
+        },
+        {
+          "old_n": 7,
+          "new_n": 4,
+          "len": 3
+        },
+        {
+          "old_n": 10,
+          "new_n": 9,
+          "len": 3
+        },
+        {
+          "old_n": 9,
+          "new_n": 9,
+          "len": 3
+        },
+        {
+          "old_n": 8,
+          "new_n": 6,
+          "len": 3
+        },
+        {
+          "old_n": 9,
+          "new_n": 7,
+          "len": 2
+        },
+        {
+          "old_n": 6,
+          "new_n": 3,
+          "len": 2
+        },
+        {
+          "old_n": 6,
+          "new_n": 8,
+          "len": 2
+        },
+        {
+          "old_n": 3,
+          "new_n": 0,
+          "len": 2
+        },
+        {
+          "old_n": 7,
+          "new_n": 9,
+          "len": 2
+        },
+        {
+          "old_n": 9,
+          "new_n": 10,
+          "len": 2
+        },
+        {
+          "old_n": 4,
+          "new_n": 1,
+          "len": 1
+        },
+        {
+          "old_n": 2,
+          "new_n": 5,
+          "len": 1
+        },
+        {
+          "old_n": 11,
+          "new_n": 10,
+          "len": 1
+        },
+        {
+          "old_n": 8,
+          "new_n": 10,
+          "len": 1
+        }
+      ]
+    },
+    "v12_up3_ml5fr_nounext": {
+      "country_row_changes": [
+        {
+          "country": "France",
+          "n": 259452,
+          "changed": 16561
+        },
+        {
+          "country": "India",
+          "n": 809986,
+          "changed": 0
+        },
+        {
+          "country": "US",
+          "n": 663106,
+          "changed": 0
+        }
+      ],
+      "France_added": 8285,
+      "France_removed": 9073,
+      "France_changed_S1": 16561,
+      "empty_to_nonempty": 277,
+      "nonempty_to_empty": 429,
+      "set_size_changes": [
+        {
+          "old_n": 4,
+          "new_n": 3,
+          "len": 2081
+        },
+        {
+          "old_n": 3,
+          "new_n": 4,
+          "len": 1840
+        },
+        {
+          "old_n": 3,
+          "new_n": 2,
+          "len": 1810
+        },
+        {
+          "old_n": 2,
+          "new_n": 3,
+          "len": 1735
+        },
+        {
+          "old_n": 5,
+          "new_n": 4,
+          "len": 1574
+        },
+        {
+          "old_n": 4,
+          "new_n": 5,
+          "len": 1463
+        },
+        {
+          "old_n": 6,
+          "new_n": 5,
+          "len": 907
+        },
+        {
+          "old_n": 1,
+          "new_n": 2,
+          "len": 907
+        },
+        {
+          "old_n": 5,
+          "new_n": 6,
+          "len": 882
+        },
+        {
+          "old_n": 2,
+          "new_n": 1,
+          "len": 873
+        },
+        {
+          "old_n": 1,
+          "new_n": 0,
+          "len": 416
+        },
+        {
+          "old_n": 6,
+          "new_n": 7,
+          "len": 370
+        },
+        {
+          "old_n": 7,
+          "new_n": 6,
+          "len": 354
+        },
+        {
+          "old_n": 0,
+          "new_n": 1,
+          "len": 270
+        },
+        {
+          "old_n": 8,
+          "new_n": 7,
+          "len": 155
+        },
+        {
+          "old_n": 7,
+          "new_n": 8,
+          "len": 139
+        },
+        {
+          "old_n": 4,
+          "new_n": 4,
+          "len": 74
+        },
+        {
+          "old_n": 4,
+          "new_n": 2,
+          "len": 64
+        },
+        {
+          "old_n": 2,
+          "new_n": 2,
+          "len": 61
+        },
+        {
+          "old_n": 3,
+          "new_n": 3,
+          "len": 60
+        },
+        {
+          "old_n": 5,
+          "new_n": 3,
+          "len": 59
+        },
+        {
+          "old_n": 5,
+          "new_n": 5,
+          "len": 58
+        },
+        {
+          "old_n": 3,
+          "new_n": 5,
+          "len": 40
+        },
+        {
+          "old_n": 3,
+          "new_n": 1,
+          "len": 40
+        },
+        {
+          "old_n": 6,
+          "new_n": 4,
+          "len": 36
+        },
+        {
+          "old_n": 4,
+          "new_n": 6,
+          "len": 34
+        },
+        {
+          "old_n": 7,
+          "new_n": 5,
+          "len": 31
+        },
+        {
+          "old_n": 1,
+          "new_n": 1,
+          "len": 28
+        },
+        {
+          "old_n": 2,
+          "new_n": 4,
+          "len": 27
+        },
+        {
+          "old_n": 6,
+          "new_n": 6,
+          "len": 26
+        },
+        {
+          "old_n": 8,
+          "new_n": 9,
+          "len": 25
+        },
+        {
+          "old_n": 9,
+          "new_n": 8,
+          "len": 22
+        },
+        {
+          "old_n": 5,
+          "new_n": 7,
+          "len": 20
+        },
+        {
+          "old_n": 1,
+          "new_n": 3,
+          "len": 16
+        },
+        {
+          "old_n": 2,
+          "new_n": 0,
+          "len": 11
+        },
+        {
+          "old_n": 7,
+          "new_n": 7,
+          "len": 10
+        },
+        {
+          "old_n": 0,
+          "new_n": 2,
+          "len": 7
+        },
+        {
+          "old_n": 8,
+          "new_n": 6,
+          "len": 4
+        },
+        {
+          "old_n": 10,
+          "new_n": 9,
+          "len": 4
+        },
+        {
+          "old_n": 8,
+          "new_n": 8,
+          "len": 4
+        },
+        {
+          "old_n": 6,
+          "new_n": 3,
+          "len": 3
+        },
+        {
+          "old_n": 9,
+          "new_n": 9,
+          "len": 3
+        },
+        {
+          "old_n": 7,
+          "new_n": 4,
+          "len": 3
+        },
+        {
+          "old_n": 9,
+          "new_n": 7,
+          "len": 2
+        },
+        {
+          "old_n": 9,
+          "new_n": 10,
+          "len": 2
+        },
+        {
+          "old_n": 4,
+          "new_n": 1,
+          "len": 2
+        },
+        {
+          "old_n": 3,
+          "new_n": 0,
+          "len": 2
+        },
+        {
+          "old_n": 7,
+          "new_n": 9,
+          "len": 2
+        },
+        {
+          "old_n": 6,
+          "new_n": 8,
+          "len": 2
+        },
+        {
+          "old_n": 11,
+          "new_n": 9,
+          "len": 1
+        },
+        {
+          "old_n": 8,
+          "new_n": 10,
+          "len": 1
+        },
+        {
+          "old_n": 2,
+          "new_n": 5,
+          "len": 1
+        }
+      ]
+    }
+  },
+  "baseline_selected": [
+    {
+      "cohort": "exact_core_tokens",
+      "len": 641204,
+      "n_s1": 235821,
+      "has_S1_name_number_twin": 0.8925505767275314,
+      "mean_addr_sim": 90.71568298339844
+    },
+    {
+      "cohort": "filler",
+      "len": 32375,
+      "n_s1": 30311,
+      "has_S1_name_number_twin": 0.010872586872586873,
+      "mean_addr_sim": 93.96675109863281
+    },
+    {
+      "cohort": "noun_empty_address",
+      "len": 3,
+      "n_s1": 3,
+      "has_S1_name_number_twin": 0.0,
+      "mean_addr_sim": 0.0
+    },
+    {
+      "cohort": "noun_other_number",
+      "len": 227,
+      "n_s1": 224,
+      "has_S1_name_number_twin": 0.013215859030837005,
+      "mean_addr_sim": 92.17084503173828
+    },
+    {
+      "cohort": "noun_same_number",
+      "len": 2110,
+      "n_s1": 2089,
+      "has_S1_name_number_twin": 0.06208530805687204,
+      "mean_addr_sim": 81.9139633178711
+    },
+    {
+      "cohort": "other",
+      "len": 169563,
+      "n_s1": 124586,
+      "has_S1_name_number_twin": 0.006563931989879868,
+      "mean_addr_sim": 94.4426040649414
+    }
+  ],
+  "v12_added": [
+    {
+      "cohort": "exact_core_tokens",
+      "len": 1350,
+      "n_s1": 1310,
+      "has_S1_name_number_twin": 0.12,
+      "mean_addr_sim": 28.055980682373047
+    },
+    {
+      "cohort": "filler",
+      "len": 5652,
+      "n_s1": 5584,
+      "has_S1_name_number_twin": 0.02264685067232838,
+      "mean_addr_sim": 92.49440002441406
+    },
+    {
+      "cohort": "noun_other_number",
+      "len": 5,
+      "n_s1": 5,
+      "has_S1_name_number_twin": 0.0,
+      "mean_addr_sim": 93.72161865234375
+    },
+    {
+      "cohort": "other",
+      "len": 1278,
+      "n_s1": 1268,
+      "has_S1_name_number_twin": 0.005477308294209703,
+      "mean_addr_sim": 91.34855651855469
+    }
+  ],
+  "v12_removed": [
+    {
+      "cohort": "exact_core_tokens",
+      "len": 2524,
+      "n_s1": 2431,
+      "has_S1_name_number_twin": 0.4528526148969889,
+      "mean_addr_sim": 62.229591369628906
+    },
+    {
+      "cohort": "filler",
+      "len": 649,
+      "n_s1": 649,
+      "has_S1_name_number_twin": 0.01694915254237288,
+      "mean_addr_sim": 79.73599243164062
+    },
+    {
+      "cohort": "noun_empty_address",
+      "len": 1,
+      "n_s1": 1,
+      "has_S1_name_number_twin": 0.0,
+      "mean_addr_sim": 0.0
+    },
+    {
+      "cohort": "noun_other_number",
+      "len": 140,
+      "n_s1": 139,
+      "has_S1_name_number_twin": 0.014285714285714285,
+      "mean_addr_sim": 91.11114501953125
+    },
+    {
+      "cohort": "noun_same_number",
+      "len": 2110,
+      "n_s1": 2089,
+      "has_S1_name_number_twin": 0.06208530805687204,
+      "mean_addr_sim": 81.9139633178711
+    },
+    {
+      "cohort": "other",
+      "len": 3649,
+      "n_s1": 3607,
+      "has_S1_name_number_twin": 0.007947382844614962,
+      "mean_addr_sim": 89.13999938964844
+    }
+  ],
+  "target_gaps": {
+    "0.987": {
+      "global_gap": 0.0012480000000000269,
+      "France_gain_if_only_France_changes_using_full_weight": 0.008333776236066966
+    },
+    "0.988": {
+      "global_gap": 0.0022480000000000278,
+      "France_gain_if_only_France_changes_using_full_weight": 0.015011481553428178
+    },
+    "0.99": {
+      "global_gap": 0.0042480000000000295,
+      "France_gain_if_only_France_changes_using_full_weight": 0.028366892188150604
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "India": {
+    "n_S1": 110187,
+    "baseline": 0.9878402721472127,
+    "oracles": {
+      "blocking_nonempty_address": {
+        "pairs": 5310,
+        "score": 0.9925556933544879,
+        "gain": 0.004715421207275194
+      },
+      "blocking_empty_address": {
+        "pairs": 2093,
+        "score": 0.9895788054074819,
+        "gain": 0.0017385332602691816
+      },
+      "blocking_with_exact_predicted_anchor_name": {
+        "pairs": 479,
+        "score": 0.9881671597510345,
+        "gain": 0.0003268876038218238
+      },
+      "retrieved_FN_with_exact_predicted_anchor_name": {
+        "pairs": 1144,
+        "score": 0.9884754143007701,
+        "gain": 0.000635142153557422
+      },
+      "blocking_low_name_high_addr": {
+        "pairs": 642,
+        "score": 0.988396037560788,
+        "gain": 0.000555765413575271
+      }
+    }
+  },
+  "US": {
+    "n_S1": 165215,
+    "baseline": 0.9875598505222539,
+    "oracles": {
+      "blocking_nonempty_address": {
+        "pairs": 5093,
+        "score": 0.9908317390499991,
+        "gain": 0.0032718885277451815
+      },
+      "blocking_empty_address": {
+        "pairs": 3398,
+        "score": 0.9895656159318454,
+        "gain": 0.00200576540959152
+      },
+      "blocking_with_exact_predicted_anchor_name": {
+        "pairs": 823,
+        "score": 0.9879440414951265,
+        "gain": 0.00038419097287256676
+      },
+      "retrieved_FN_with_exact_predicted_anchor_name": {
+        "pairs": 3147,
+        "score": 0.9887704448227594,
+        "gain": 0.0012105943005055186
+      },
+      "blocking_low_name_high_addr": {
+        "pairs": 136,
+        "score": 0.9876339957426851,
+        "gain": 7.414522043114324e-05
+      }
+    }
+  }
+}

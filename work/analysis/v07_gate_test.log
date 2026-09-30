@@ -1,0 +1,28 @@
+done France
+done India
+done US
+shape: (18, 6)
+┌─────────┬────────────────────┬────────┬────────────┬──────────┬──────────────┐
+│ country ┆ group              ┆ xgb_v6 ┆ xgb_v6_own ┆ blend_v7 ┆ blend_v7_own │
+│ ---     ┆ ---                ┆ ---    ┆ ---        ┆ ---      ┆ ---          │
+│ str     ┆ str                ┆ f64    ┆ f64        ┆ f64      ┆ f64          │
+╞═════════╪════════════════════╪════════╪════════════╪══════════╪══════════════╡
+│ France  ┆ empty cand address ┆ 87.5   ┆ 85.6       ┆ 88.3     ┆ 86.2         │
+│ France  ┆ form conflict      ┆ 3.4    ┆ 3.4        ┆ 3.3      ┆ 3.4          │
+│ France  ┆ matches_per_S1     ┆ 3.353  ┆ 3.346      ┆ 3.356    ┆ 3.349        │
+│ France  ┆ near-number twin   ┆ 44.4   ┆ 44.3       ┆ 44.0     ┆ 43.9         │
+│ France  ┆ other-number twin  ┆ 30.7   ┆ 30.5       ┆ 30.9     ┆ 30.6         │
+│ France  ┆ rest               ┆ 3186.8 ┆ 3182.3     ┆ 3189.8   ┆ 3185.1       │
+│ India   ┆ empty cand address ┆ 73.4   ┆ 72.0       ┆ 73.6     ┆ 72.2         │
+│ India   ┆ form conflict      ┆ 0.8    ┆ 0.8        ┆ 0.8      ┆ 0.8          │
+│ India   ┆ matches_per_S1     ┆ 3.348  ┆ 3.346      ┆ 3.349    ┆ 3.347        │
+│ India   ┆ near-number twin   ┆ 50.5   ┆ 50.4       ┆ 50.5     ┆ 50.5         │
+│ India   ┆ other-number twin  ┆ 229.2  ┆ 229.1      ┆ 229.3    ┆ 229.2        │
+│ India   ┆ rest               ┆ 2994.4 ┆ 2993.3     ┆ 2995.1   ┆ 2994.0       │
+│ US      ┆ empty cand address ┆ 98.9   ┆ 97.0       ┆ 98.9     ┆ 97.2         │
+│ US      ┆ form conflict      ┆ 13.5   ┆ 13.5       ┆ 13.4     ┆ 13.4         │
+│ US      ┆ matches_per_S1     ┆ 3.456  ┆ 3.453      ┆ 3.456    ┆ 3.453        │
+│ US      ┆ near-number twin   ┆ 102.8  ┆ 102.8      ┆ 102.4    ┆ 102.4        │
+│ US      ┆ other-number twin  ┆ 185.2  ┆ 185.2      ┆ 185.7    ┆ 185.7        │
+│ US      ┆ rest               ┆ 3055.6 ┆ 3054.9     ┆ 3055.5   ┆ 3054.8       │
+└─────────┴────────────────────┴────────┴────────────┴──────────┴──────────────┘

@@ -1,0 +1,13 @@
+{
+  "id": "melvindenishl/bedrock-k9h-fr2",
+  "title": "bedrock-k9h-fr2",
+  "code_file": "run.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": ["melvindenishl/amazon-ml", "melvindenishl/bedrock-ce"],
+  "kernel_sources": ["melvindenishl/bedrock-k9b-ce2"],
+  "competition_sources": []
+}

@@ -1,0 +1,53 @@
+{
+  "train_US": {
+    "n_s1": 165215,
+    "new_unowned_pairs": 22,
+    "affected_s1": 17,
+    "true_pairs": 22,
+    "precision": 1.0,
+    "base_f05": 0.9878467675273919,
+    "new_f05": 0.987862287932601,
+    "delta": 1.5520405209135113e-05
+  },
+  "train_India": {
+    "n_s1": 110187,
+    "new_unowned_pairs": 0,
+    "affected_s1": 0,
+    "true_pairs": 0,
+    "precision": null,
+    "base_f05": 0.9881361163795377,
+    "new_f05": 0.9881361163795377,
+    "delta": 0.0
+  },
+  "test_France": {
+    "n_s1": 259405,
+    "new_unowned_pairs": 50,
+    "affected_s1": 43,
+    "old_set_sizes": [
+      {
+        "n_old": 1,
+        "len": 6
+      },
+      {
+        "n_old": 2,
+        "len": 10
+      },
+      {
+        "n_old": 3,
+        "len": 21
+      },
+      {
+        "n_old": 4,
+        "len": 5
+      },
+      {
+        "n_old": 5,
+        "len": 7
+      },
+      {
+        "n_old": 6,
+        "len": 1
+      }
+    ]
+  }
+}

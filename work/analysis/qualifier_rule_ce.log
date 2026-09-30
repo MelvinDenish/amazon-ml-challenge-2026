@@ -1,0 +1,16 @@
+half 0: 4 zero-rate words learned on the other half; flagged pairs 172 (true matches among them 1)
+   India  base  (owner prob) 0.98636
+   India  veto  (owner prob) 0.98639
+   US     base  (owner prob) 0.98619
+   US     veto  (owner prob) 0.98619
+half 1: 3 zero-rate words learned on the other half; flagged pairs 210 (true matches among them 4)
+   India  base  (owner prob) 0.98610
+   India  veto  (owner prob) 0.98611
+   US     base  (owner prob) 0.98654
+   US     veto  (owner prob) 0.98654
+
+ALL-TRAIN list: 6 words, e.g. ['associates', 'group', 'industries', 'pllc', 'private', 'pvt']
+TEST France: flagged 0.1/1k S1, selections removed 0.0/1k, added 0.0/1k, matches/S1 3.266 -> 3.266
+TEST India : flagged 3.6/1k S1, selections removed 0.1/1k, added 0.0/1k, matches/S1 3.337 -> 3.337
+TEST US    : flagged 3.3/1k S1, selections removed 0.0/1k, added 0.0/1k, matches/S1 3.390 -> 3.390
+wrote artifacts/oof/test_blend_v7_ce1s_qv.parquet

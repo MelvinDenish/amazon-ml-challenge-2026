@@ -1,0 +1,14 @@
+[India] empty-address pairs 245,233, in band 67,278, true rate in band 0.117
+   true rate by src_same_conf: [{'src_same_conf': 0, 'len': 9102, 'y': 0.112}, {'src_same_conf': 1, 'len': 58176, 'y': 0.118}]
+   true rate by exact_member: [{'exact_member': 0, 'len': 54542, 'y': 0.076}, {'exact_member': 1, 'len': 12736, 'y': 0.293}]
+   true rate by exact_s1: [{'exact_s1': 0, 'len': 50087, 'y': 0.116}, {'exact_s1': 1, 'len': 17191, 'y': 0.121}]
+   true rate by dup_empty (1/2/3+): [{'dup_empty': 1, 'len': 58605, 'y': 0.127}, {'dup_empty': 2, 'len': 7591, 'y': 0.05}, {'dup_empty': 3, 'len': 1082, 'y': 0.035}]
+   logloss stack 0.2042 -> specialist 0.2035
+   macro F0.5 (owner prob): stack 0.98784 -> + empty-address specialist 0.98783 (-0.00001)
+[US] empty-address pairs 687,666, in band 119,065, true rate in band 0.130
+   true rate by src_same_conf: [{'src_same_conf': 0, 'len': 17092, 'y': 0.132}, {'src_same_conf': 1, 'len': 101973, 'y': 0.13}]
+   true rate by exact_member: [{'exact_member': 0, 'len': 84278, 'y': 0.078}, {'exact_member': 1, 'len': 34787, 'y': 0.255}]
+   true rate by exact_s1: [{'exact_s1': 0, 'len': 90446, 'y': 0.111}, {'exact_s1': 1, 'len': 28619, 'y': 0.19}]
+   true rate by dup_empty (1/2/3+): [{'dup_empty': 1, 'len': 90593, 'y': 0.155}, {'dup_empty': 2, 'len': 18838, 'y': 0.063}, {'dup_empty': 3, 'len': 9634, 'y': 0.024}]
+   logloss stack 0.2075 -> specialist 0.2055
+   macro F0.5 (owner prob): stack 0.98756 -> + empty-address specialist 0.98754 (-0.00002)

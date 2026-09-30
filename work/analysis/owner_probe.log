@@ -1,0 +1,17 @@
+
+[India] pairs 11,147,071  cands with >1 S1 2,774,359
+  lambda 0.00: ef05 0.978290  (19s)
+  lambda 0.25: ef05 0.978340  (18s)
+  lambda 0.50: ef05 0.978400  (15s)
+  lambda 1.00: ef05 0.978490  (17s)
+
+[US] pairs 16,114,768  cands with >1 S1 4,087,720
+  lambda 0.00: ef05 0.981820  (25s)
+  lambda 0.25: ef05 0.981890  (23s)
+  lambda 0.50: ef05 0.981950  (18s)
+  lambda 1.00: ef05 0.982020  (19s)
+
+TEST v06: selected 5,873,185 pairs, 3.390 per S1
+  lambda 0.25: 3.389 per S1, changed S1s 1,669 (0.10%)
+  lambda 0.50: 3.388 per S1, changed S1s 3,175 (0.18%)
+  lambda 1.00: 3.387 per S1, changed S1s 5,568 (0.32%)

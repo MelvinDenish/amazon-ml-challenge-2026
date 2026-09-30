@@ -1,0 +1,19 @@
+polars==1.44.2
+pyarrow==23.0.0
+rapidfuzz==3.14.6
+lightgbm==4.6.0
+numpy==2.4.2
+psutil==7.2.2
+xgboost==3.2.0
+scikit-learn==1.8.0
+# cross-encoders (cross_encoder.py / modal_ce.py; CUDA GPU). Pretrained models, all MIT or Apache-2.0, <= 560M params:
+#   distilbert-base-multilingual-cased (Apache-2.0, 134M), xlm-roberta-base (MIT, 278M), xlm-roberta-large (MIT, 560M),
+#   microsoft/mdeberta-v3-base (MIT, 278M), microsoft/deberta-v3-large (MIT, 435M)
+torch==2.4.1
+transformers==4.44.2
+sentencepiece==0.2.0
+protobuf==4.25.4
+pandas==2.2.2
+requests==2.32.3
+# remote GPU runner (modal_ce.py); its container image pins torch==2.4.1 and transformers==4.44.2 as above
+modal==1.5.5

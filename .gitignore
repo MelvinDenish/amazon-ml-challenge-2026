@@ -1,0 +1,6 @@
+*.parquet
+*.tsv
+*.zip
+__pycache__/
+urls_*.json
+ltn_fetch.sh

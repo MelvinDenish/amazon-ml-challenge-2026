@@ -1,0 +1,54 @@
+C:\Users\L Melvin Denish\AppData\Roaming\Python\Python314\site-packages\modal\_utils\async_utils.py:43: DeprecationWarning: 'asyncio.WindowsSelectorEventLoopPolicy' is deprecated and slated for removal in Python 3.16
+  asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+C:\Users\L Melvin Denish\AppData\Roaming\Python\Python314\site-packages\modal\_utils\async_utils.py:43: DeprecationWarning: 'asyncio.set_event_loop_policy' is deprecated and slated for removal in Python 3.16
+  asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/lmelvindenish/main/ap-Dc8j1oDqTtksdp16BxV0xu
+✓ Created objects.
+├── 🔨 Created mount C:\Users\L Melvin 
+│   Denish\Amazon_ML\work\aws_job\modal_ce.py
+└── 🔨 Created function run.
+[xlmrlfr] NVIDIA A100-SXM4-80GB train pairs 1,875,307 (420s)
+/usr/local/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Some weights of XLMRobertaForSequenceClassification were not initialized from the model checkpoint at xlm-roberta-large and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[xlmrlfr] step 1000/29302 loss 0.1985 621s
+[xlmrlfr] step 2000/29302 loss 0.2963 787s
+[xlmrlfr] step 3000/29302 loss 0.1500 954s
+[xlmrlfr] step 4000/29302 loss 0.2292 1121s
+[xlmrlfr] step 5000/29302 loss 0.1792 1288s
+[xlmrlfr] step 6000/29302 loss 0.2206 1455s
+[xlmrlfr] step 7000/29302 loss 0.1500 1623s
+[xlmrlfr] step 8000/29302 loss 0.3278 1789s
+[xlmrlfr] step 9000/29302 loss 0.1971 1957s
+[xlmrlfr] step 10000/29302 loss 0.1012 2126s
+[xlmrlfr] step 11000/29302 loss 0.1132 2291s
+[xlmrlfr] step 12000/29302 loss 0.2196 2454s
+[xlmrlfr] step 13000/29302 loss 0.2028 2620s
+[xlmrlfr] step 14000/29302 loss 0.1512 2788s
+[xlmrlfr] step 15000/29302 loss 0.1588 2956s
+[xlmrlfr] step 16000/29302 loss 0.2119 3123s
+[xlmrlfr] step 17000/29302 loss 0.0983 3291s
+[xlmrlfr] step 18000/29302 loss 0.0846 3458s
+[xlmrlfr] step 19000/29302 loss 0.2114 3625s
+[xlmrlfr] step 20000/29302 loss 0.3037 3789s
+[xlmrlfr] step 21000/29302 loss 0.1060 3951s
+[xlmrlfr] step 22000/29302 loss 0.1289 4115s
+[xlmrlfr] step 23000/29302 loss 0.1364 4280s
+[xlmrlfr] step 24000/29302 loss 0.0946 4449s
+[xlmrlfr] step 25000/29302 loss 0.1801 4616s
+[xlmrlfr] step 26000/29302 loss 0.1451 4783s
+[xlmrlfr] step 27000/29302 loss 0.1824 4950s
+[xlmrlfr] step 28000/29302 loss 0.1570 5118s
+[xlmrlfr] step 29000/29302 loss 0.1220 5285s
+[xlmrlfr] eval logloss 0.1540
+[xlmrlfr] uploaded eval 411,798 5572s
+[xlmrlfr] eval_x logloss 0.1511
+[xlmrlfr] uploaded eval_x 67,227 5612s
+[xlmrlfr] uploaded test_x 401,923 5833s
+[xlmrlfr] uploaded test 3,545,879 7566s
+xlmrlfr done: eval logloss 0.1540; eval_x logloss 0.1511
+✓ App completed. View run at 
+https://modal.com/apps/lmelvindenish/main/ap-Dc8j1oDqTtksdp16BxV0xu

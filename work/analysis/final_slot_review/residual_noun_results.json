@@ -1,0 +1,26 @@
+{
+  "noun_plus_other_typo": {
+    "pairs": 41,
+    "entities": 41,
+    "deletion_only_max_full_test_gain": 5.784387871296804e-06,
+    "new_singletons": 2
+  },
+  "one_noun_below70": {
+    "pairs": 352,
+    "entities": 349,
+    "deletion_only_max_full_test_gain": 5.3436164762588286e-05,
+    "new_singletons": 19
+  },
+  "one_noun_close_spelling": {
+    "pairs": 234,
+    "entities": 234,
+    "deletion_only_max_full_test_gain": 3.541921272638816e-05,
+    "new_singletons": 11
+  },
+  "all_extended_nouns": {
+    "pairs": 2110,
+    "entities": 2089,
+    "deletion_only_max_full_test_gain": 0.00033625214366756953,
+    "new_singletons": 151
+  }
+}

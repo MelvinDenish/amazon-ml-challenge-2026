@@ -1,0 +1,28 @@
+done France
+done India
+done US
+shape: (18, 6)
+┌─────────┬────────────────────┬───────────────────────┬───────────────┬──────────────────┬─────────────────────┐
+│ country ┆ group              ┆ TRAIN ref (precision) ┆ test_blend_v7 ┆ test_blend_v7_qv ┆ test_blend_v7_qv_cs │
+│ ---     ┆ ---                ┆ ---                   ┆ ---           ┆ ---              ┆ ---                 │
+│ str     ┆ str                ┆ str                   ┆ str           ┆ str              ┆ str                 │
+╞═════════╪════════════════════╪═══════════════════════╪═══════════════╪══════════════════╪═════════════════════╡
+│ France  ┆ empty cand address ┆ null                  ┆ 86.2          ┆ 86.2             ┆ 86.2                │
+│ France  ┆ form conflict      ┆ null                  ┆ 3.4           ┆ 3.3              ┆ 1.5                 │
+│ France  ┆ matches_per_S1     ┆ null                  ┆ 3.349         ┆ 3.347            ┆ 3.320               │
+│ France  ┆ near-number twin   ┆ null                  ┆ 43.9          ┆ 43.1             ┆ 24.8                │
+│ France  ┆ other-number twin  ┆ null                  ┆ 30.6          ┆ 30.5             ┆ 30.5                │
+│ France  ┆ rest               ┆ null                  ┆ 3185.1        ┆ 3184.0           ┆ 3177.3              │
+│ India   ┆ empty cand address ┆ 73.6 (0.98)           ┆ 72.2          ┆ 72.2             ┆ 72.2                │
+│ India   ┆ form conflict      ┆ 0.7 (0.97)            ┆ 0.8           ┆ 0.8              ┆ 0.8                 │
+│ India   ┆ matches_per_S1     ┆ 3.316                 ┆ 3.347         ┆ 3.331            ┆ 3.328               │
+│ India   ┆ near-number twin   ┆ 46.7 (0.99)           ┆ 50.5          ┆ 49.8             ┆ 48.7                │
+│ India   ┆ other-number twin  ┆ 218.0 (0.99)          ┆ 229.2         ┆ 227.9            ┆ 227.9               │
+│ India   ┆ rest               ┆ 2977.2 (0.99)         ┆ 2994.0        ┆ 2980.6           ┆ 2978.8              │
+│ US      ┆ empty cand address ┆ 87.4 (0.97)           ┆ 97.2          ┆ 97.1             ┆ 97.1                │
+│ US      ┆ form conflict      ┆ 10.0 (0.98)           ┆ 13.4          ┆ 13.3             ┆ 10.6                │
+│ US      ┆ matches_per_S1     ┆ 3.331                 ┆ 3.453         ┆ 3.440            ┆ 3.374               │
+│ US      ┆ near-number twin   ┆ 54.1 (0.99)           ┆ 102.4         ┆ 97.9             ┆ 64.2                │
+│ US      ┆ other-number twin  ┆ 163.9 (0.99)          ┆ 185.7         ┆ 183.2            ┆ 166.3               │
+│ US      ┆ rest               ┆ 3015.9 (1.00)         ┆ 3054.8        ┆ 3048.9           ┆ 3036.0              │
+└─────────┴────────────────────┴───────────────────────┴───────────────┴──────────────────┴─────────────────────┘

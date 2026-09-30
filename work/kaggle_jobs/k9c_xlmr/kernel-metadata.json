@@ -1,0 +1,13 @@
+{
+  "id": "melvindenishl/bedrock-k9c-xlmr",
+  "title": "bedrock-k9c-xlmr",
+  "code_file": "run.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": ["melvindenishl/amazon-ml", "melvindenishl/bedrock-ce"],
+  "kernel_sources": [],
+  "competition_sources": []
+}

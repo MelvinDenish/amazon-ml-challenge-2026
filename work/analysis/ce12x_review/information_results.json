@@ -1,0 +1,98 @@
+{
+  "India": {
+    "empty_target_population": 122794,
+    "ASCII_fold_erases_nonempty_name_count": 0,
+    "error_slices": [
+      {
+        "error": "FP",
+        "pairs": 569,
+        "empty": 186,
+        "strict_identical_input_multiple_owner_states": 0,
+        "folded_name_multiple_owner_states": 1,
+        "anchor_exact_name": 155,
+        "low_name_high_address_raw": 77,
+        "non_ascii_name": 64
+      },
+      {
+        "error": "BLOCKING_FN",
+        "pairs": 7403,
+        "empty": 2093,
+        "strict_identical_input_multiple_owner_states": 0,
+        "folded_name_multiple_owner_states": 40,
+        "anchor_exact_name": 479,
+        "low_name_high_address_raw": 642,
+        "non_ascii_name": 892
+      },
+      {
+        "error": "FN",
+        "pairs": 5871,
+        "empty": 4908,
+        "strict_identical_input_multiple_owner_states": 0,
+        "folded_name_multiple_owner_states": 146,
+        "anchor_exact_name": 1144,
+        "low_name_high_address_raw": 274,
+        "non_ascii_name": 629
+      }
+    ],
+    "empty_FN_ambiguity": [
+      {
+        "strict_ambiguous": false,
+        "folded_ambiguous": true,
+        "len": 146
+      },
+      {
+        "strict_ambiguous": false,
+        "folded_ambiguous": false,
+        "len": 4762
+      }
+    ]
+  },
+  "US": {
+    "empty_target_population": 222089,
+    "ASCII_fold_erases_nonempty_name_count": 0,
+    "error_slices": [
+      {
+        "error": "FP",
+        "pairs": 727,
+        "empty": 312,
+        "strict_identical_input_multiple_owner_states": 0,
+        "folded_name_multiple_owner_states": 5,
+        "anchor_exact_name": 234,
+        "low_name_high_address_raw": 37,
+        "non_ascii_name": 34
+      },
+      {
+        "error": "FN",
+        "pairs": 11254,
+        "empty": 9441,
+        "strict_identical_input_multiple_owner_states": 0,
+        "folded_name_multiple_owner_states": 535,
+        "anchor_exact_name": 3147,
+        "low_name_high_address_raw": 188,
+        "non_ascii_name": 820
+      },
+      {
+        "error": "BLOCKING_FN",
+        "pairs": 8491,
+        "empty": 3398,
+        "strict_identical_input_multiple_owner_states": 0,
+        "folded_name_multiple_owner_states": 408,
+        "anchor_exact_name": 823,
+        "low_name_high_address_raw": 136,
+        "non_ascii_name": 403
+      }
+    ],
+    "empty_FN_ambiguity": [
+      {
+        "strict_ambiguous": false,
+        "folded_ambiguous": false,
+        "len": 8906
+      },
+      {
+        "strict_ambiguous": false,
+        "folded_ambiguous": true,
+        "len": 535
+      }
+    ]
+  }
+}

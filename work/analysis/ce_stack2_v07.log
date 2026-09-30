@@ -1,0 +1,4 @@
+fold 0: best_iter 345 logloss 0.12763
+fold 1: best_iter 286 logloss 0.12732
+  GBM-stack owner_prob India: 0.98627
+  GBM-stack owner_prob US: 0.98649

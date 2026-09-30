@@ -1,0 +1,2 @@
+{"India": {"n_S1": 110187, "production_approx": 0.9878402721472127, "recall1_approx": 0.9878289493282002, "exact_independent": 0.9878540495727166, "changed_S1": 98, "max_owned_candidates": 167, "seconds": 5.0944154262542725}}
+{"US": {"n_S1": 165215, "production_approx": 0.9875598505222538, "recall1_approx": 0.9875560975598747, "exact_independent": 0.9875947855409276, "changed_S1": 115, "max_owned_candidates": 203, "seconds": 7.311793804168701}}

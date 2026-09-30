@@ -1,0 +1,5 @@
+[train US] obvious records/S1 1.380 | NOT in candidates 0.44% | in candidates but not selected 1.49% | share truly matching 98.1%
+[train India] obvious records/S1 1.228 | NOT in candidates 16.02% | in candidates but not selected 3.87% | share truly matching 80.2%
+[test France] obvious records/S1 2.669 | NOT in candidates 17.08% | in candidates but not selected 7.89%
+[test US] obvious records/S1 1.367 | NOT in candidates 0.16% | in candidates but not selected 1.00%
+[test India] obvious records/S1 1.256 | NOT in candidates 16.53% | in candidates but not selected 5.16%

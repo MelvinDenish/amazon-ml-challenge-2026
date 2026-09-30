@@ -1,0 +1,135 @@
+
+######## TRAIN US
+shape: (18, 8)
+┌────────────┬─────────┬────────┬────────┬───────────┬────────┬───────────┬────────────┐
+│ added      ┆ number  ┆ anchor ┆ n      ┆ per_1k_S1 ┆ mean_p ┆ sel_share ┆ match_rate │
+│ ---        ┆ ---     ┆ ---    ┆ ---    ┆ ---       ┆ ---    ┆ ---       ┆ ---        │
+│ str        ┆ str     ┆ bool   ┆ u32    ┆ f64       ┆ f32    ┆ f64       ┆ f64        │
+╞════════════╪═════════╪════════╪════════╪═══════════╪════════╪═══════════╪════════════╡
+│ legal only ┆ differs ┆ false  ┆ 2444   ┆ 16.3      ┆ 0.589  ┆ 0.57      ┆ 0.575      │
+│ legal only ┆ differs ┆ true   ┆ 8396   ┆ 56.0      ┆ 0.569  ┆ 0.551     ┆ 0.542      │
+│ legal only ┆ missing ┆ false  ┆ 1294   ┆ 8.6       ┆ 0.408  ┆ 0.368     ┆ 0.41       │
+│ legal only ┆ missing ┆ true   ┆ 14928  ┆ 99.5      ┆ 0.43   ┆ 0.392     ┆ 0.439      │
+│ legal only ┆ same    ┆ false  ┆ 2560   ┆ 17.1      ┆ 0.97   ┆ 0.977     ┆ 0.976      │
+│ legal only ┆ same    ┆ true   ┆ 40447  ┆ 269.6     ┆ 0.988  ┆ 0.993     ┆ 0.993      │
+│ none       ┆ differs ┆ false  ┆ 7462   ┆ 49.7      ┆ 0.987  ┆ 0.99      ┆ 0.986      │
+│ none       ┆ differs ┆ true   ┆ 23931  ┆ 159.5     ┆ 0.974  ┆ 0.977     ┆ 0.975      │
+│ none       ┆ missing ┆ false  ┆ 5597   ┆ 37.3      ┆ 0.481  ┆ 0.42      ┆ 0.47       │
+│ none       ┆ missing ┆ true   ┆ 58180  ┆ 387.9     ┆ 0.548  ┆ 0.496     ┆ 0.547      │
+│ none       ┆ same    ┆ false  ┆ 12746  ┆ 85.0      ┆ 0.999  ┆ 0.999     ┆ 0.999      │
+│ none       ┆ same    ┆ true   ┆ 202708 ┆ 1351.4    ┆ 1.0    ┆ 1.0       ┆ 1.0        │
+│ other word ┆ differs ┆ false  ┆ 5843   ┆ 39.0      ┆ 0.755  ┆ 0.75      ┆ 0.751      │
+│ other word ┆ differs ┆ true   ┆ 19503  ┆ 130.0     ┆ 0.683  ┆ 0.67      ┆ 0.671      │
+│ other word ┆ missing ┆ false  ┆ 2666   ┆ 17.8      ┆ 0.458  ┆ 0.416     ┆ 0.452      │
+│ other word ┆ missing ┆ true   ┆ 31088  ┆ 207.3     ┆ 0.488  ┆ 0.455     ┆ 0.491      │
+│ other word ┆ same    ┆ false  ┆ 8742   ┆ 58.3      ┆ 0.928  ┆ 0.931     ┆ 0.927      │
+│ other word ┆ same    ┆ true   ┆ 137149 ┆ 914.3     ┆ 0.961  ┆ 0.966     ┆ 0.961      │
+└────────────┴─────────┴────────┴────────┴───────────┴────────┴───────────┴────────────┘
+
+######## TRAIN India
+shape: (18, 8)
+┌────────────┬─────────┬────────┬────────┬───────────┬────────┬───────────┬────────────┐
+│ added      ┆ number  ┆ anchor ┆ n      ┆ per_1k_S1 ┆ mean_p ┆ sel_share ┆ match_rate │
+│ ---        ┆ ---     ┆ ---    ┆ ---    ┆ ---       ┆ ---    ┆ ---       ┆ ---        │
+│ str        ┆ str     ┆ bool   ┆ u32    ┆ f64       ┆ f32    ┆ f64       ┆ f64        │
+╞════════════╪═════════╪════════╪════════╪═══════════╪════════╪═══════════╪════════════╡
+│ legal only ┆ differs ┆ false  ┆ 4175   ┆ 27.8      ┆ 0.922  ┆ 0.928     ┆ 0.928      │
+│ legal only ┆ differs ┆ true   ┆ 7628   ┆ 50.9      ┆ 0.886  ┆ 0.89      ┆ 0.872      │
+│ legal only ┆ missing ┆ false  ┆ 7406   ┆ 49.4      ┆ 0.688  ┆ 0.676     ┆ 0.684      │
+│ legal only ┆ missing ┆ true   ┆ 9944   ┆ 66.3      ┆ 0.254  ┆ 0.21      ┆ 0.257      │
+│ legal only ┆ same    ┆ false  ┆ 2434   ┆ 16.2      ┆ 0.959  ┆ 0.968     ┆ 0.959      │
+│ legal only ┆ same    ┆ true   ┆ 31550  ┆ 210.3     ┆ 0.985  ┆ 0.99      ┆ 0.987      │
+│ none       ┆ differs ┆ false  ┆ 22060  ┆ 147.1     ┆ 0.964  ┆ 0.964     ┆ 0.965      │
+│ none       ┆ differs ┆ true   ┆ 41159  ┆ 274.4     ┆ 0.937  ┆ 0.935     ┆ 0.933      │
+│ none       ┆ missing ┆ false  ┆ 35003  ┆ 233.4     ┆ 0.775  ┆ 0.76      ┆ 0.772      │
+│ none       ┆ missing ┆ true   ┆ 38067  ┆ 253.8     ┆ 0.288  ┆ 0.241     ┆ 0.289      │
+│ none       ┆ same    ┆ false  ┆ 13881  ┆ 92.5      ┆ 0.987  ┆ 0.988     ┆ 0.988      │
+│ none       ┆ same    ┆ true   ┆ 174603 ┆ 1164.0    ┆ 0.994  ┆ 0.995     ┆ 0.995      │
+│ other word ┆ differs ┆ false  ┆ 15381  ┆ 102.5     ┆ 0.793  ┆ 0.795     ┆ 0.798      │
+│ other word ┆ differs ┆ true   ┆ 31493  ┆ 210.0     ┆ 0.698  ┆ 0.69      ┆ 0.684      │
+│ other word ┆ missing ┆ false  ┆ 23014  ┆ 153.4     ┆ 0.717  ┆ 0.709     ┆ 0.714      │
+│ other word ┆ missing ┆ true   ┆ 16299  ┆ 108.7     ┆ 0.316  ┆ 0.274     ┆ 0.317      │
+│ other word ┆ same    ┆ false  ┆ 9756   ┆ 65.0      ┆ 0.852  ┆ 0.855     ┆ 0.847      │
+│ other word ┆ same    ┆ true   ┆ 116819 ┆ 778.8     ┆ 0.918  ┆ 0.925     ┆ 0.923      │
+└────────────┴─────────┴────────┴────────┴───────────┴────────┴───────────┴────────────┘
+
+######## TEST US
+shape: (18, 7)
+┌────────────┬─────────┬────────┬────────┬───────────┬────────┬───────────┐
+│ added      ┆ number  ┆ anchor ┆ n      ┆ per_1k_S1 ┆ mean_p ┆ sel_share │
+│ ---        ┆ ---     ┆ ---    ┆ ---    ┆ ---       ┆ ---    ┆ ---       │
+│ str        ┆ str     ┆ bool   ┆ u32    ┆ f64       ┆ f32    ┆ f64       │
+╞════════════╪═════════╪════════╪════════╪═══════════╪════════╪═══════════╡
+│ legal only ┆ differs ┆ false  ┆ 5242   ┆ 34.9      ┆ 0.506  ┆ 0.48      │
+│ legal only ┆ differs ┆ true   ┆ 43554  ┆ 290.4     ┆ 0.47   ┆ 0.449     │
+│ legal only ┆ missing ┆ false  ┆ 1583   ┆ 10.6      ┆ 0.335  ┆ 0.3       │
+│ legal only ┆ missing ┆ true   ┆ 15789  ┆ 105.3     ┆ 0.408  ┆ 0.379     │
+│ legal only ┆ same    ┆ false  ┆ 2609   ┆ 17.4      ┆ 0.975  ┆ 0.984     │
+│ legal only ┆ same    ┆ true   ┆ 40653  ┆ 271.0     ┆ 0.987  ┆ 0.991     │
+│ none       ┆ differs ┆ false  ┆ 7620   ┆ 50.8      ┆ 0.985  ┆ 0.988     │
+│ none       ┆ differs ┆ true   ┆ 24734  ┆ 164.9     ┆ 0.975  ┆ 0.979     │
+│ none       ┆ missing ┆ false  ┆ 5316   ┆ 35.4      ┆ 0.532  ┆ 0.482     │
+│ none       ┆ missing ┆ true   ┆ 54574  ┆ 363.8     ┆ 0.598  ┆ 0.556     │
+│ none       ┆ same    ┆ false  ┆ 12569  ┆ 83.8      ┆ 0.999  ┆ 1.0       │
+│ none       ┆ same    ┆ true   ┆ 201653 ┆ 1344.4    ┆ 1.0    ┆ 1.0       │
+│ other word ┆ differs ┆ false  ┆ 10269  ┆ 68.5      ┆ 0.524  ┆ 0.489     │
+│ other word ┆ differs ┆ true   ┆ 74648  ┆ 497.7     ┆ 0.339  ┆ 0.276     │
+│ other word ┆ missing ┆ false  ┆ 3167   ┆ 21.1      ┆ 0.424  ┆ 0.393     │
+│ other word ┆ missing ┆ true   ┆ 33294  ┆ 222.0     ┆ 0.474  ┆ 0.443     │
+│ other word ┆ same    ┆ false  ┆ 9093   ┆ 60.6      ┆ 0.917  ┆ 0.918     │
+│ other word ┆ same    ┆ true   ┆ 140575 ┆ 937.2     ┆ 0.95   ┆ 0.954     │
+└────────────┴─────────┴────────┴────────┴───────────┴────────┴───────────┘
+
+######## TEST India
+shape: (18, 7)
+┌────────────┬─────────┬────────┬────────┬───────────┬────────┬───────────┐
+│ added      ┆ number  ┆ anchor ┆ n      ┆ per_1k_S1 ┆ mean_p ┆ sel_share │
+│ ---        ┆ ---     ┆ ---    ┆ ---    ┆ ---       ┆ ---    ┆ ---       │
+│ str        ┆ str     ┆ bool   ┆ u32    ┆ f64       ┆ f32    ┆ f64       │
+╞════════════╪═════════╪════════╪════════╪═══════════╪════════╪═══════════╡
+│ legal only ┆ differs ┆ false  ┆ 4573   ┆ 30.5      ┆ 0.88   ┆ 0.882     │
+│ legal only ┆ differs ┆ true   ┆ 9582   ┆ 63.9      ┆ 0.787  ┆ 0.785     │
+│ legal only ┆ missing ┆ false  ┆ 7660   ┆ 51.1      ┆ 0.671  ┆ 0.659     │
+│ legal only ┆ missing ┆ true   ┆ 9729   ┆ 64.9      ┆ 0.254  ┆ 0.21      │
+│ legal only ┆ same    ┆ false  ┆ 2425   ┆ 16.2      ┆ 0.952  ┆ 0.959     │
+│ legal only ┆ same    ┆ true   ┆ 32470  ┆ 216.5     ┆ 0.974  ┆ 0.978     │
+│ none       ┆ differs ┆ false  ┆ 22879  ┆ 152.5     ┆ 0.945  ┆ 0.944     │
+│ none       ┆ differs ┆ true   ┆ 43266  ┆ 288.4     ┆ 0.898  ┆ 0.893     │
+│ none       ┆ missing ┆ false  ┆ 34766  ┆ 231.8     ┆ 0.777  ┆ 0.763     │
+│ none       ┆ missing ┆ true   ┆ 35916  ┆ 239.4     ┆ 0.307  ┆ 0.259     │
+│ none       ┆ same    ┆ false  ┆ 13936  ┆ 92.9      ┆ 0.979  ┆ 0.98      │
+│ none       ┆ same    ┆ true   ┆ 175706 ┆ 1171.4    ┆ 0.99   ┆ 0.991     │
+│ other word ┆ differs ┆ false  ┆ 19842  ┆ 132.3     ┆ 0.667  ┆ 0.652     │
+│ other word ┆ differs ┆ true   ┆ 53480  ┆ 356.5     ┆ 0.501  ┆ 0.467     │
+│ other word ┆ missing ┆ false  ┆ 27221  ┆ 181.5     ┆ 0.651  ┆ 0.632     │
+│ other word ┆ missing ┆ true   ┆ 13601  ┆ 90.7      ┆ 0.363  ┆ 0.32      │
+│ other word ┆ same    ┆ false  ┆ 10809  ┆ 72.1      ┆ 0.784  ┆ 0.777     │
+│ other word ┆ same    ┆ true   ┆ 125857 ┆ 839.0     ┆ 0.87   ┆ 0.87      │
+└────────────┴─────────┴────────┴────────┴───────────┴────────┴───────────┘
+
+######## TEST France
+shape: (18, 7)
+┌────────────┬─────────┬────────┬────────┬───────────┬────────┬───────────┐
+│ added      ┆ number  ┆ anchor ┆ n      ┆ per_1k_S1 ┆ mean_p ┆ sel_share │
+│ ---        ┆ ---     ┆ ---    ┆ ---    ┆ ---       ┆ ---    ┆ ---       │
+│ str        ┆ str     ┆ bool   ┆ u32    ┆ f64       ┆ f32    ┆ f64       │
+╞════════════╪═════════╪════════╪════════╪═══════════╪════════╪═══════════╡
+│ legal only ┆ differs ┆ false  ┆ 1812   ┆ 12.1      ┆ 0.317  ┆ 0.275     │
+│ legal only ┆ differs ┆ true   ┆ 20083  ┆ 133.9     ┆ 0.37   ┆ 0.336     │
+│ legal only ┆ missing ┆ false  ┆ 1235   ┆ 8.2       ┆ 0.461  ┆ 0.435     │
+│ legal only ┆ missing ┆ true   ┆ 8404   ┆ 56.0      ┆ 0.332  ┆ 0.286     │
+│ legal only ┆ same    ┆ false  ┆ 1537   ┆ 10.2      ┆ 0.864  ┆ 0.869     │
+│ legal only ┆ same    ┆ true   ┆ 30591  ┆ 203.9     ┆ 0.918  ┆ 0.926     │
+│ none       ┆ differs ┆ false  ┆ 2483   ┆ 16.6      ┆ 0.596  ┆ 0.567     │
+│ none       ┆ differs ┆ true   ┆ 14724  ┆ 98.2      ┆ 0.431  ┆ 0.393     │
+│ none       ┆ missing ┆ false  ┆ 7085   ┆ 47.2      ┆ 0.713  ┆ 0.682     │
+│ none       ┆ missing ┆ true   ┆ 49391  ┆ 329.3     ┆ 0.586  ┆ 0.538     │
+│ none       ┆ same    ┆ false  ┆ 12642  ┆ 84.3      ┆ 0.982  ┆ 0.982     │
+│ none       ┆ same    ┆ true   ┆ 281524 ┆ 1876.8    ┆ 0.992  ┆ 0.992     │
+│ other word ┆ differs ┆ false  ┆ 5178   ┆ 34.5      ┆ 0.225  ┆ 0.158     │
+│ other word ┆ differs ┆ true   ┆ 65893  ┆ 439.3     ┆ 0.193  ┆ 0.117     │
+│ other word ┆ missing ┆ false  ┆ 3452   ┆ 23.0      ┆ 0.519  ┆ 0.495     │
+│ other word ┆ missing ┆ true   ┆ 18559  ┆ 123.7     ┆ 0.424  ┆ 0.387     │
+│ other word ┆ same    ┆ false  ┆ 8419   ┆ 56.1      ┆ 0.719  ┆ 0.722     │
+│ other word ┆ same    ┆ true   ┆ 157237 ┆ 1048.2    ┆ 0.819  ┆ 0.828     │
+└────────────┴─────────┴────────┴────────┴───────────┴────────┴───────────┘

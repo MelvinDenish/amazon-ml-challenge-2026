@@ -1,0 +1,17 @@
+  s = d.select("add", "y").explode("add").drop_nulls().group_by("add").agg(pl.len().alias("n"), pl.col("y").mean().alias("r"))
+half 0: 81 zero-rate words learned on the other half; flagged pairs 12,529 (true matches among them 14)
+   India  base  (owner prob) 0.97838
+   India  veto  (owner prob) 0.97901
+   US     base  (owner prob) 0.98217
+   US     veto  (owner prob) 0.98235
+half 1: 82 zero-rate words learned on the other half; flagged pairs 13,663 (true matches among them 16)
+   India  base  (owner prob) 0.97874
+   India  veto  (owner prob) 0.97939
+   US     base  (owner prob) 0.98230
+   US     veto  (owner prob) 0.98251
+
+ALL-TRAIN list: 107 words, e.g. ['agencies', 'agro', 'associates', 'bakery', 'brown', 'builders', 'central', 'clinic', 'coastal', 'constructions', 'consultancy', 'consultants', 'consulting', 'dental', 'developers', 'digital', 'downtown', 'east', 'eastgate', 'education', 'electronics', 'energy', 'engineering', 'exports', 'farms', 'finance', 'financial', 'fitness', 'foods', 'furniture', 'garments', 'general', 'global', 'greater', 'green', 'group', 'hardware', 'health', 'highland', 'holdings', 'hospitality', 'impex', 'india', 'industries', 'infra', 'infratech', 'international', 'investments', 'jewellers', 'johnson', 'jones', 'laboratories', 'lakeside', 'logistics', 'management', 'marketing', 'media', 'medical', 'medicals', 'metro']
+TEST France: flagged 45.3/1k S1, selections removed 2.0/1k, added 0.0/1k, matches/S1 3.349 -> 3.347
+TEST India : flagged 270.9/1k S1, selections removed 15.5/1k, added 0.1/1k, matches/S1 3.347 -> 3.331
+TEST US    : flagged 314.5/1k S1, selections removed 13.0/1k, added 0.1/1k, matches/S1 3.453 -> 3.440
+wrote artifacts/oof/test_blend_v7_qv.parquet

@@ -1,0 +1,10 @@
+eval S1s 275,402 pairs 6,804,688 routed 411,798 (CE pairs matched 411,798/411,798)
+stacker coef [logit p, ce, product]: [0.722 0.581 0.026] intercept 0.206
+  base     owner_prob=False India 0.98018 US 0.98281 overall 0.98176
+  base     owner_prob=True  India 0.98028 US 0.98289 overall 0.98185
+  base+CE  owner_prob=False India 0.98538 US 0.98574 overall 0.98560
+  base+CE  owner_prob=True  India 0.98550 US 0.98583 overall 0.98570
+  test France: pairs 6,786,508 routed 636,223  CE logit mean -2.052 sd 3.889  mean p 0.3208 -> stacked 0.2844
+  test India: pairs 22,060,341 routed 1,553,252  CE logit mean -2.248 sd 4.856  mean p 0.3077 -> stacked 0.2796
+  test US: pairs 17,159,760 routed 1,356,404  CE logit mean -2.629 sd 4.084  mean p 0.2979 -> stacked 0.2337
+wrote artifacts/oof/test_xgb_v8_ce.parquet
